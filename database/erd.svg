@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1600" height="1200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .table-box { fill: #f0f0f0; stroke: #333; stroke-width: 2; }
+      .table-title { font-weight: bold; font-size: 14px; fill: #000; }
+      .table-field { font-size: 12px; fill: #333; }
+      .pk { font-weight: bold; color: #d32f2f; }
+      .fk { color: #1976d2; }
+      .relationship-line { stroke: #666; stroke-width: 2; fill: none; }
+      .relationship-label { font-size: 11px; fill: #666; }
+    </style>
+  </defs>
+
+  <!-- Title -->
+  <text x="800" y="30" style="font-size: 24px; font-weight: bold; text-anchor: middle;">
+    Engineering College Admission Platform - Database Schema
+  </text>
+
+  <!-- COUNSELLING_SYSTEMS -->
+  <rect x="50" y="80" width="200" height="120" class="table-box"/>
+  <text x="150" y="105" class="table-title" text-anchor="middle">COUNSELLING_SYSTEMS</text>
+  <line x1="50" y1="115" x2="250" y2="115" stroke="#333" stroke-width="1"/>
+  <text x="60" y="135" class="table-field">PK: counselling_system_id</text>
+  <text x="60" y="155" class="table-field">UK: system_code</text>
+  <text x="60" y="175" class="table-field">system_name, state</text>
+
+  <!-- COLLEGES (Core) -->
+  <rect x="350" y="80" width="250" height="180" class="table-box"/>
+  <text x="475" y="105" class="table-title" text-anchor="middle">COLLEGES</text>
+  <line x1="350" y1="115" x2="600" y2="115" stroke="#333" stroke-width="1"/>
+  <text x="360" y="135" class="table-field pk">PK: college_id</text>
+  <text x="360" y="155" class="table-field fk">FK: counselling_system_id</text>
+  <text x="360" y="175" class="table-field">college_code, college_name</text>
+  <text x="360" y="195" class="table-field">autonomous_status, minority_status</text>
+  <text x="360" y="215" class="table-field fk">FK: district_id, taluk_id</text>
+  <text x="360" y="235" class="table-field">website, email, phone</text>
+
+  <!-- BRANCH_MASTERS -->
+  <rect x="750" y="80" width="200" height="120" class="table-box"/>
+  <text x="850" y="105" class="table-title" text-anchor="middle">BRANCH_MASTERS</text>
+  <line x1="750" y1="115" x2="950" y2="115" stroke="#333" stroke-width="1"/>
+  <text x="760" y="135" class="table-field pk">PK: branch_id</text>
+  <text x="760" y="155" class="table-field">UK: branch_code</text>
+  <text x="760" y="175" class="table-field">branch_name, category</text>
+
+  <!-- COLLEGE_BRANCHES -->
+  <rect x="550" y="350" width="220" height="120" class="table-box"/>
+  <text x="660" y="375" class="table-title" text-anchor="middle">COLLEGE_BRANCHES</text>
+  <line x1="550" y1="385" x2="770" y2="385" stroke="#333" stroke-width="1"/>
+  <text x="560" y="405" class="table-field pk">PK: college_branch_id</text>
+  <text x="560" y="425" class="table-field fk">FK: college_id, branch_id</text>
+  <text x="560" y="445" class="table-field">intake, year_started</text>
+
+  <!-- BRANCH_ACCREDITATIONS -->
+  <rect x="850" y="350" width="240" height="120" class="table-box"/>
+  <text x="970" y="375" class="table-title" text-anchor="middle">BRANCH_ACCREDITATIONS</text>
+  <line x1="850" y1="385" x2="1090" y2="385" stroke="#333" stroke-width="1"/>
+  <text x="860" y="405" class="table-field pk">PK: accreditation_id</text>
+  <text x="860" y="425" class="table-field fk">FK: college_branch_id</text>
+  <text x="860" y="445" class="table-field">accreditation_type, valid_upto</text>
+
+  <!-- HOSTEL_FACILITIES -->
+  <rect x="50" y="350" width="240" height="140" class="table-box"/>
+  <text x="170" y="375" class="table-title" text-anchor="middle">HOSTEL_FACILITIES</text>
+  <line x1="50" y1="385" x2="290" y2="385" stroke="#333" stroke-width="1"/>
+  <text x="60" y="405" class="table-field pk">PK: hostel_facility_id</text>
+  <text x="60" y="425" class="table-field fk">FK: college_id</text>
+  <text x="60" y="445" class="table-field">gender, accommodation_type</text>
+  <text x="60" y="465" class="table-field">mess_bill, room_rent, electricity</text>
+
+  <!-- COLLEGE_FACILITIES -->
+  <rect x="350" y="350" width="200" height="120" class="table-box"/>
+  <text x="450" y="375" class="table-title" text-anchor="middle">COLLEGE_FACILITIES</text>
+  <line x1="350" y1="385" x2="550" y2="385" stroke="#333" stroke-width="1"/>
+  <text x="360" y="405" class="table-field pk">PK: facility_id</text>
+  <text x="360" y="425" class="table-field fk">FK: college_id</text>
+  <text x="360" y="445" class="table-field">facility_name, facility_type</text>
+
+  <!-- COLLEGE_CONTACTS -->
+  <rect x="1150" y="350" width="200" height="120" class="table-box"/>
+  <text x="1250" y="375" class="table-title" text-anchor="middle">COLLEGE_CONTACTS</text>
+  <line x1="1150" y1="385" x2="1350" y2="385" stroke="#333" stroke-width="1"/>
+  <text x="1160" y="405" class="table-field pk">PK: contact_id</text>
+  <text x="1160" y="425" class="table-field fk">FK: college_id</text>
+  <text x="1160" y="445" class="table-field">contact_type, contact_name</text>
+
+  <!-- COLLEGE_IMAGES -->
+  <rect x="1400" y="350" width="180" height="120" class="table-box"/>
+  <text x="1490" y="375" class="table-title" text-anchor="middle">COLLEGE_IMAGES</text>
+  <line x1="1400" y1="385" x2="1580" y2="385" stroke="#333" stroke-width="1"/>
+  <text x="1410" y="405" class="table-field pk">PK: image_id</text>
+  <text x="1410" y="425" class="table-field fk">FK: college_id</text>
+  <text x="1410" y="445" class="table-field">image_url, image_type</text>
+
+  <!-- DISTRICTS -->
+  <rect x="50" y="650" width="180" height="100" class="table-box"/>
+  <text x="140" y="675" class="table-title" text-anchor="middle">DISTRICTS</text>
+  <line x1="50" y1="685" x2="230" y2="685" stroke="#333" stroke-width="1"/>
+  <text x="60" y="705" class="table-field pk">PK: district_id</text>
+  <text x="60" y="725" class="table-field">district_name, state</text>
+
+  <!-- TALUKS -->
+  <rect x="300" y="650" width="200" height="100" class="table-box"/>
+  <text x="400" y="675" class="table-title" text-anchor="middle">TALUKS</text>
+  <line x1="300" y1="685" x2="500" y2="685" stroke="#333" stroke-width="1"/>
+  <text x="310" y="705" class="table-field pk">PK: taluk_id</text>
+  <text x="310" y="725" class="table-field fk">FK: district_id</text>
+
+  <!-- Relationships -->
+  <!-- COUNSELLING_SYSTEMS -> COLLEGES (1:M) -->
+  <path d="M 250 140 L 350 140" class="relationship-line" marker-end="url(#arrowhead)"/>
+  <text x="290" y="135" class="relationship-label">1:M</text>
+
+  <!-- COLLEGES -> COLLEGE_BRANCHES (1:M) -->
+  <path d="M 475 260 L 660 350" class="relationship-line" marker-end="url(#arrowhead)"/>
+  <text x="540" y="300" class="relationship-label">1:M</text>
+
+  <!-- COLLEGES -> HOSTEL_FACILITIES (1:M) -->
+  <path d="M 350 240 L 170 350" class="relationship-line" marker-end="url(#arrowhead)"/>
+  <text x="250" y="290" class="relationship-label">1:M</text>
+
+  <!-- COLLEGES -> COLLEGE_FACILITIES (1:M) -->
+  <path d="M 450 260 L 450 350" class="relationship-line" marker-end="url(#arrowhead)"/>
+  <text x="460" y="300" class="relationship-label">1:M</text>
+
+  <!-- COLLEGES -> COLLEGE_CONTACTS (1:M) -->
+  <path d="M 600 240 L 1250 350" class="relationship-line" marker-end="url(#arrowhead)"/>
+  <text x="900" y="290" class="relationship-label">1:M</text>
+
+  <!-- COLLEGES -> COLLEGE_IMAGES (1:M) -->
+  <path d="M 600 240 L 1490 350" class="relationship-line" marker-end="url(#arrowhead)"/>
+  <text x="1000" y="290" class="relationship-label">1:M</text>
+
+  <!-- COLLEGE_BRANCHES -> BRANCH_ACCREDITATIONS (1:M) -->
+  <path d="M 770 410 L 850 410" class="relationship-line" marker-end="url(#arrowhead)"/>
+  <text x="800" y="405" class="relationship-label">1:M</text>
+
+  <!-- BRANCH_MASTERS -> COLLEGE_BRANCHES (M:1) -->
+  <path d="M 850 200 L 700 350" class="relationship-line" marker-end="url(#arrowhead)"/>
+  <text x="760" y="270" class="relationship-label">M:1</text>
+
+  <!-- DISTRICTS -> COLLEGES (1:M) -->
+  <path d="M 140 650 L 400 260" class="relationship-line" marker-end="url(#arrowhead)"/>
+  <text x="250" y="450" class="relationship-label">1:M</text>
+
+  <!-- DISTRICTS -> TALUKS (1:M) -->
+  <path d="M 230 700 L 300 700" class="relationship-line" marker-end="url(#arrowhead)"/>
+  <text x="260" y="695" class="relationship-label">1:M</text>
+
+  <!-- TALUKS -> COLLEGES (M:1) -->
+  <path d="M 400 650 L 500 260" class="relationship-line" marker-end="url(#arrowhead)"/>
+  <text x="420" y="450" class="relationship-label">M:1</text>
+
+  <!-- Legend -->
+  <text x="50" y="900" style="font-size: 14px; font-weight: bold;">Legend:</text>
+  <text x="50" y="925" style="font-size: 12px;"><tspan class="pk">PK</tspan> = Primary Key | <tspan class="fk">FK</tspan> = Foreign Key | UK = Unique Key</text>
+  <text x="50" y="950" style="font-size: 12px;">1:M = One-to-Many | M:1 = Many-to-One</text>
+
+  <!-- Arrow marker definition -->
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <polygon points="0 0, 10 3, 0 6" fill="#666"/>
+    </marker>
+  </defs>
+</svg>
