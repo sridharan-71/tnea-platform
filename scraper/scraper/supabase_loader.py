@@ -125,14 +125,24 @@ def upload_records(records, table_name):
 
 
 # -----------------------------
+# Upload DataFrame
+# -----------------------------
+def upload_dataframe(csv_path):
+    """Upload a single CSV file to Supabase."""
+
+    info = parse_filename(csv_path)
+
+    df = load_dataframe(csv_path, info["year"])
+    records = clean_dataframe(df)
+
+    upload_records(records, info["table"])
+
+
+# -----------------------------
 # Main
 # -----------------------------
 def main():
-    info = parse_filename(CSV_PATH)
-
-    df = load_dataframe(CSV_PATH, info["year"])
-    records = clean_dataframe(df)
-    upload_records(records, info["table"])
+    upload_dataframe(CSV_PATH)
 
 
 if __name__ == "__main__":
