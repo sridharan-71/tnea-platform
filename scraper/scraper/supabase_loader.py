@@ -11,6 +11,7 @@ from supabase import create_client
 # -----------------------------
 BATCH_SIZE = 500
 CSV_PATH = "data/csv/cutoff_2025.csv"
+CSV_DIRECTORY = Path("data/csv")
 
 # -----------------------------
 # Supabase Client
@@ -50,6 +51,25 @@ def parse_filename(csv_path):
         "year": int(year),
         "table": f"{dataset}_data",
     }
+
+
+# -----------------------------
+# Discover CSV Files
+# -----------------------------
+def discover_csv_files(directory: Path) -> list[Path]:
+    """
+    Return all CSV files in the given directory in alphabetical order.
+    """
+
+    if not directory.exists():
+        raise FileNotFoundError(f"Directory not found: {directory}")
+
+    csv_files = sorted(directory.glob("*.csv"))
+
+    if not csv_files:
+        raise FileNotFoundError(f"No CSV files found in {directory}")
+
+    return csv_files
 
 
 # -----------------------------
