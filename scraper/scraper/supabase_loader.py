@@ -10,7 +10,6 @@ from supabase import create_client
 # Configuration
 # -----------------------------
 BATCH_SIZE = 500
-CSV_PATH = "data/csv/cutoff_2025.csv"
 CSV_DIRECTORY = Path("data/csv")
 
 # -----------------------------
@@ -58,18 +57,12 @@ def parse_filename(csv_path):
 # -----------------------------
 def discover_csv_files(directory: Path) -> list[Path]:
     """
-    Return all CSV files in the given directory in alphabetical order.
+    Find all CSV files in the directory.
+
+    Returns them sorted so uploads are deterministic.
     """
 
-    if not directory.exists():
-        raise FileNotFoundError(f"Directory not found: {directory}")
-
-    csv_files = sorted(directory.glob("*.csv"))
-
-    if not csv_files:
-        raise FileNotFoundError(f"No CSV files found in {directory}")
-
-    return csv_files
+    return sorted(directory.glob("*.csv"))
 
 
 # -----------------------------
@@ -88,7 +81,13 @@ def load_dataframe(csv_path, year):
 # Clean Data
 # -----------------------------
 def clean_dataframe(df):
-    """Convert NaN values to None for Supabase."""
+    """
+    Convert data into a format suitable for Supabase.
+
+    - NaN -> None
+    - Float integers (5407.0) -> int (5407)
+    - Real decimal values remain decimals
+    """
 
     records = []
 
@@ -96,8 +95,18 @@ def clean_dataframe(df):
         cleaned = {}
 
         for key, value in row.items():
-            if isinstance(value, float) and math.isnan(value):
-                cleaned[key] = None
+
+            if isinstance(value, float):
+
+                if math.isnan(value):
+                    cleaned[key] = None
+
+                elif value.is_integer():
+                    cleaned[key] = int(value)
+
+                else:
+                    cleaned[key] = value
+
             else:
                 cleaned[key] = value
 
@@ -128,9 +137,11 @@ def upload_records(records, table_name):
 # Upload DataFrame
 # -----------------------------
 def upload_dataframe(csv_path):
-    """Upload a single CSV file to Supabase."""
+    """Upload a single CSV file."""
 
     info = parse_filename(csv_path)
+
+    print(f"\nUploading {Path(csv_path).name}...")
 
     df = load_dataframe(csv_path, info["year"])
     records = clean_dataframe(df)
@@ -142,7 +153,10 @@ def upload_dataframe(csv_path):
 # Main
 # -----------------------------
 def main():
-    upload_dataframe(CSV_PATH)
+    csv_files = discover_csv_files(CSV_DIRECTORY)
+
+    for csv_file in csv_files:
+        upload_dataframe(csv_file)
 
 
 if __name__ == "__main__":
