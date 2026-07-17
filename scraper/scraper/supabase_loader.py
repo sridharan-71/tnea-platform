@@ -134,6 +134,32 @@ def upload_records(records, table_name):
 
 
 # -----------------------------
+# Verify Upload
+# -----------------------------
+def verify_upload(table_name, year, expected_rows):
+    """Verify the number of uploaded rows."""
+
+    response = (
+        supabase
+        .table(table_name)
+        .select("*", count="exact")
+        .eq("year", year)
+        .execute()
+    )
+
+    actual_rows = response.count
+
+    print("\nVerification")
+    print(f"Expected rows : {expected_rows}")
+    print(f"Database rows : {actual_rows}")
+
+    if actual_rows == expected_rows:
+        print("✅ VERIFIED\n")
+    else:
+        print("❌ VERIFICATION FAILED\n")
+
+
+# -----------------------------
 # Upload DataFrame
 # -----------------------------
 def upload_dataframe(csv_path):
@@ -147,6 +173,8 @@ def upload_dataframe(csv_path):
     records = clean_dataframe(df)
 
     upload_records(records, info["table"])
+
+   
 
 
 # -----------------------------
