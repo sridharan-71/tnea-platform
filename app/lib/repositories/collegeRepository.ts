@@ -21,7 +21,8 @@ export async function getFeaturedColleges(
     `
     )
     .eq("year", 2025)
-    .limit(limit);
+    .order("college_code")
+    .limit(500);
 
   if (error) {
     throw new Error(error.message);
@@ -37,5 +38,5 @@ export async function getFeaturedColleges(
     }
   }
 
-  return [...unique.values()];
+  return [...unique.values()].slice(0, limit);
 }
