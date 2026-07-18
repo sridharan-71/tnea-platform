@@ -1,7 +1,7 @@
 export default function Hero() {
   return (
-    <section className="min-h-screen bg-black text-white">
-      <div className="mx-auto flex min-h-screen max-w-7xl flex-col items-center justify-center px-6 text-center">
+    <section className="bg-black text-white pt-28 pb-20">
+      <div className="mx-auto flex max-w-7xl flex-col items-center justify-center px-6 text-center">
 
         <span className="rounded-full border border-white/10 bg-white/5 px-4 py-2 text-sm text-gray-300">
           🚀 AI-Powered Engineering Counselling

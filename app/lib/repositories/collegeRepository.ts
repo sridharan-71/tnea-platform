@@ -68,3 +68,26 @@ export async function searchColleges(
 
   return [...unique.values()].slice(0, limit);
 }
+
+export async function getCollegeByCode(
+  collegeCode: number
+): Promise<CollegeSearchResult | null> {
+  const { data, error } = await supabase
+    .from("cutoff_data")
+    .select(`
+      college_code,
+      college_name,
+      district,
+      college_type
+    `)
+    .eq("year", 2025)
+    .eq("college_code", collegeCode)
+    .limit(1)
+    .single();
+
+  if (error) {
+    throw new Error(error.message);
+  }
+
+  return data;
+}
