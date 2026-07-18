@@ -12,14 +12,12 @@ export async function getFeaturedColleges(
 ): Promise<CollegeSearchResult[]> {
   const { data, error } = await supabase
     .from("cutoff_data")
-    .select(
-      `
+    .select(`
       college_code,
       college_name,
       district,
       college_type
-    `
-    )
+    `)
     .eq("year", 2025)
     .order("college_code")
     .limit(500);
@@ -28,8 +26,38 @@ export async function getFeaturedColleges(
     throw new Error(error.message);
   }
 
-  // cutoff_data contains multiple rows per college (one per branch).
-  // Keep only one row for each college.
+  const unique = new Map<number, CollegeSearchResult>();
+
+  for (const college of data) {
+    if (!unique.has(college.college_code)) {
+      unique.set(college.college_code, college);
+    }
+  }
+
+  return [...unique.values()].slice(0, limit);
+}
+
+export async function searchColleges(
+  query: string,
+  limit: number = 10
+): Promise<CollegeSearchResult[]> {
+  const { data, error } = await supabase
+    .from("cutoff_data")
+    .select(`
+      college_code,
+      college_name,
+      district,
+      college_type
+    `)
+    .eq("year", 2025)
+    .ilike("college_name", `%${query}%`)
+    .order("college_code")
+    .limit(500);
+
+  if (error) {
+    throw new Error(error.message);
+  }
+
   const unique = new Map<number, CollegeSearchResult>();
 
   for (const college of data) {
