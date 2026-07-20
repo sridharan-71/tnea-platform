@@ -1,4 +1,15 @@
+import { notFound } from "next/navigation";
+import { getCollegeCutoffs } from "@/lib/repositories/cutoffRepository";
 import { getCollegeByCode } from "@/lib/repositories/collegeRepository";
+
+import CutoffExplorer from "@/components/college/CutoffExplorer";
+
+import {
+  MapPin,
+  GraduationCap,
+  Building2,
+} from "lucide-react";
+
 
 interface CollegePageProps {
   params: Promise<{
@@ -6,62 +17,157 @@ interface CollegePageProps {
   }>;
 }
 
+
 export default async function CollegePage({
   params,
 }: CollegePageProps) {
+
+
   const { collegeCode } = await params;
 
-  const college = await getCollegeByCode(Number(collegeCode));
 
-  if (!college) {
-    return (
-      <main className="min-h-screen flex items-center justify-center">
-        <h1 className="text-3xl font-bold">College not found</h1>
-      </main>
-    );
+  const code = Number(collegeCode);
+
+
+  if (Number.isNaN(code)) {
+    notFound();
   }
 
+
+
+  const college = await getCollegeByCode(code);
+
+  const cutoffs = await getCollegeCutoffs(code);
+
+
+
+  if (!college) {
+    notFound();
+  }
+
+
+
   return (
-    <main className="min-h-screen bg-gray-100">
-      <div className="mx-auto max-w-5xl px-6 py-16">
 
-        <div className="rounded-3xl bg-white p-10 shadow-lg">
+    <main className="min-h-screen bg-black px-6 py-20 text-white">
 
-          <p className="text-sm uppercase tracking-wider text-blue-600 font-semibold">
-            College Profile
-          </p>
 
-          <h1 className="mt-4 text-5xl font-bold text-gray-900">
+      <div className="mx-auto max-w-6xl">
+
+
+        {/* College Header */}
+
+        <section className="rounded-3xl border border-white/10 bg-zinc-900/50 p-10">
+
+
+          <h1 className="text-4xl font-bold leading-tight">
             {college.college_name}
           </h1>
 
-          <div className="mt-8 grid gap-6 md:grid-cols-3">
 
-            <div className="rounded-xl border p-6">
-              <p className="text-sm text-gray-500">College Code</p>
-              <p className="mt-2 text-2xl font-bold">
-                {college.college_code}
-              </p>
+
+          <div className="mt-6 flex flex-wrap gap-6 text-zinc-400">
+
+
+            <div className="flex items-center gap-2">
+              <MapPin className="h-5 w-5 text-indigo-400" />
+
+              {college.district}
+
             </div>
 
-            <div className="rounded-xl border p-6">
-              <p className="text-sm text-gray-500">District</p>
-              <p className="mt-2 text-2xl font-bold">
-                {college.district}
-              </p>
+
+
+            <div className="flex items-center gap-2">
+
+              <GraduationCap className="h-5 w-5 text-indigo-400" />
+
+              {college.college_type}
+
             </div>
 
-            <div className="rounded-xl border p-6">
-              <p className="text-sm text-gray-500">College Type</p>
-              <p className="mt-2 text-xl font-bold">
-                {college.college_type}
-              </p>
+
+
+            <div className="flex items-center gap-2">
+
+              <Building2 className="h-5 w-5 text-indigo-400" />
+
+              Code: {college.college_code}
+
             </div>
+
+
 
           </div>
 
-        </div>
+
+        </section>
+
+
+
+
+
+        {/* Cutoff Explorer */}
+
+        <CutoffExplorer
+          cutoffs={cutoffs}
+        />
+
+
+
+
+
+        {/* Future Features */}
+
+        <section className="mt-12 grid gap-6 md:grid-cols-2">
+
+
+          <div className="rounded-3xl border border-white/10 bg-zinc-900/40 p-6">
+
+
+            <h3 className="text-xl font-semibold">
+              Admission Chances
+            </h3>
+
+
+            <p className="mt-2 text-zinc-400">
+              AI prediction based on your marks,
+              category and previous year trends.
+            </p>
+
+
+          </div>
+
+
+
+
+
+          <div className="rounded-3xl border border-white/10 bg-zinc-900/40 p-6">
+
+
+            <h3 className="text-xl font-semibold">
+              Compare College
+            </h3>
+
+
+            <p className="mt-2 text-zinc-400">
+              Compare this college with other
+              engineering colleges.
+            </p>
+
+
+          </div>
+
+
+
+        </section>
+
+
+
       </div>
+
+
     </main>
+
   );
 }
