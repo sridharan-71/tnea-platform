@@ -22,6 +22,8 @@
 
 # misc
 .DS_Store
+data/sources/tnea-2026/*.pdf
+data/imports/tnea-2026/tnea-2026-general-academic-merit-ranks*.csv
 *.pem
 
 # debug
@@ -32,10 +34,10 @@ yarn-error.log*
 
 # env files (can opt-in for committing if needed)
 .env*
+!.env.example
 
 # vercel
 .vercel
 
 # typescript
 *.tsbuildinfo
-

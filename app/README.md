@@ -1,36 +1,57 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# CampusAI
 
-## Getting Started
+CampusAI is a decision-support product for students taking part in TNEA 2026.
+It combines a personal admission profile, college-only recommendations, an
+official-process counselling tracker, and a grounded AI counsellor.
 
-First, run the development server:
+## Product boundaries
+
+- Only colleges and branches in the official 2026 TNEA intake table are shown.
+- General rank is the primary admission-feasibility input. Community cutoff is
+  used only when rank is unavailable.
+- Recommendations contain one card per college. Branches are evidence inputs,
+  not choice-filling output.
+- Reach, Target, Safe, and Very Safe describe historical evidence. None is a
+  guarantee of a 2026 allotment.
+- Placement packages are intentionally excluded until complete, verified data
+  is available.
+- CampusAI never asks for a TNEA password, OTP, application number, Aadhaar
+  number, certificate, or payment detail.
+
+The detailed engineering rules are in
+[`docs/ENGINEERING.md`](docs/ENGINEERING.md).
+
+## Local setup
+
+1. Install Node.js and run `npm install`.
+2. Copy `.env.example` to `.env.local` and add the Supabase public values.
+3. Run `npm run dev`.
+4. Open [http://localhost:3000](http://localhost:3000).
+
+`OPENAI_API_KEY` is optional. Without it, the counsellor uses the deterministic,
+verified reasoning path.
+
+## Required checks
+
+Run this before handing work to another contributor:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm run verify
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+It performs linting, strict TypeScript validation, and a production build.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Main areas
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- `app/` — pages and server endpoints
+- `components/` — product UI grouped by feature
+- `lib/recommendations/` — feasibility classification and college grouping
+- `lib/repositories/` — all database reads
+- `lib/counselling/` — verified process content and schedules
+- `lib/account/` — local and signed-in state synchronization
+- `supabase/migrations/` — reviewed database schema changes
+- `scripts/` — explicit data imports and audits
+- `docs/` — engineering and data-maintenance procedures
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Data imports are never part of application startup. Run them deliberately,
+review their audit output, and keep provenance with every imported fact.

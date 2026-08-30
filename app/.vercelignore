@@ -1,0 +1,10 @@
+.DS_Store
+.next
+node_modules
+
+# Research, reports and database-maintenance files are not application runtime files.
+/data
+/docs
+/scripts
+/supabase
+tsconfig.tsbuildinfo

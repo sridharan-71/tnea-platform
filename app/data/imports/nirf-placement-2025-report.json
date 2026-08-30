@@ -1,0 +1,1303 @@
+{
+  "generatedAt": "2026-07-20T15:02:27.079Z",
+  "sourcePages": [
+    "https://www.nirfindia.org/Rankings/2025/EngineeringRanking.html",
+    "https://www.nirfindia.org/Rankings/2025/EngineeringRanking150.html",
+    "https://www.nirfindia.org/Rankings/2025/EngineeringRanking200.html",
+    "https://www.nirfindia.org/Rankings/2025/EngineeringRanking300.html"
+  ],
+  "prepared": [
+    {
+      "college": {
+        "college_id": 247,
+        "college_code": "1315",
+        "college_name": "Sri Sivasubramaniya Nadar College of Engineering (Autonomous), Kalavakkam, Old Mahabalipuram Road (OMR), Chengalpattu District 603110"
+      },
+      "match": {
+        "entry": {
+          "institutionId": "IR-E-C-16604",
+          "name": "Sri Sivasubramaniya Nadar College of Engineering",
+          "pdfUrl": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Engineering/IR-E-C-16604.pdf"
+        },
+        "score": 0.98
+      },
+      "placement": {
+        "academicYear": "2023-24",
+        "eligibleStudents": 803,
+        "studentsPlaced": 624,
+        "medianSalary": 860000,
+        "studentsHigherStudies": 155
+      }
+    },
+    {
+      "college": {
+        "college_id": 322,
+        "college_code": "2006",
+        "college_name": "PSG College of Technology (Autonomous), Peelamedu, Coimbatore District"
+      },
+      "match": {
+        "entry": {
+          "institutionId": "IR-E-C-37013",
+          "name": "PSG College of Technology",
+          "pdfUrl": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Engineering/IR-E-C-37013.pdf"
+        },
+        "score": 0.98
+      },
+      "placement": {
+        "academicYear": "2023-24",
+        "eligibleStudents": 1114,
+        "studentsPlaced": 831,
+        "medianSalary": 700000,
+        "studentsHigherStudies": 83
+      }
+    },
+    {
+      "college": {
+        "college_id": 421,
+        "college_code": "2718",
+        "college_name": "Sri Krishna College of Enginering and Technology (Autonomous) ,Kuniamuthur, Coimbatore District 641008"
+      },
+      "match": {
+        "entry": {
+          "institutionId": "IR-E-C-36995",
+          "name": "Sri Krishna College of Engineering and Technology",
+          "pdfUrl": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Engineering/IR-E-C-36995.pdf"
+        },
+        "score": 0.7833333333333333
+      },
+      "placement": {
+        "academicYear": "2023-24",
+        "eligibleStudents": 1084,
+        "studentsPlaced": 991,
+        "medianSalary": 700000,
+        "studentsHigherStudies": 92
+      }
+    }
+  ],
+  "needsReview": [
+    {
+      "college": {
+        "college_id": 183,
+        "college_code": "1112",
+        "college_name": "R M D Engineering College (Autonomous), Kavaraipettai, Gummidipoondi, Thiruvallur District 601206"
+      },
+      "reason": "ambiguous_name_match",
+      "candidates": [
+        {
+          "entry": {
+            "institutionId": "IR-E-C-36995",
+            "name": "Sri Krishna College of Engineering and Technology",
+            "pdfUrl": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Engineering/IR-E-C-36995.pdf"
+          },
+          "score": 0.32307692307692304
+        },
+        {
+          "entry": {
+            "institutionId": "IR-E-U-0473",
+            "name": "S.R.M. Institute of Science and Technology",
+            "pdfUrl": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Engineering/IR-E-U-0473.pdf"
+          },
+          "score": 0.24615384615384617
+        },
+        {
+          "entry": {
+            "institutionId": "IR-E-U-0573",
+            "name": "Indian Institute of Technology Kharagpur",
+            "pdfUrl": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Engineering/IR-E-U-0573.pdf"
+          },
+          "score": 0.23076923076923073
+        }
+      ]
+    },
+    {
+      "college": {
+        "college_id": 184,
+        "college_code": "1113",
+        "college_name": "R M K Engineering College (Autonomous), Kavaraipettai, Gummidipoondi, Thiruvallur District 601206"
+      },
+      "reason": "ambiguous_name_match",
+      "candidates": [
+        {
+          "entry": {
+            "institutionId": "IR-E-C-36995",
+            "name": "Sri Krishna College of Engineering and Technology",
+            "pdfUrl": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Engineering/IR-E-C-36995.pdf"
+          },
+          "score": 0.3384615384615385
+        },
+        {
+          "entry": {
+            "institutionId": "IR-E-U-0473",
+            "name": "S.R.M. Institute of Science and Technology",
+            "pdfUrl": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Engineering/IR-E-U-0473.pdf"
+          },
+          "score": 0.24615384615384617
+        },
+        {
+          "entry": {
+            "institutionId": "IR-E-U-0535",
+            "name": "Rajiv Gandhi Institute of Petroleum Technology",
+            "pdfUrl": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Engineering/IR-E-U-0535.pdf"
+          },
+          "score": 0.23076923076923073
+        }
+      ]
+    },
+    {
+      "college": {
+        "college_id": 197,
+        "college_code": "1128",
+        "college_name": "R M K College of Engineering and Technology (Autonomous), Puduvoyal, Gummidipoondi Taluk, Thiruvallur District 601206"
+      },
+      "reason": "ambiguous_name_match",
+      "candidates": [
+        {
+          "entry": {
+            "institutionId": "IR-E-C-36995",
+            "name": "Sri Krishna College of Engineering and Technology",
+            "pdfUrl": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Engineering/IR-E-C-36995.pdf"
+          },
+          "score": 0.5074626865671642
+        },
+        {
+          "entry": {
+            "institutionId": "IR-E-I-1480",
+            "name": "Thapar Institute of Engineering and Technology (Deemed-to-be-university)",
+            "pdfUrl": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Engineering/IR-E-I-1480.pdf"
+          },
+          "score": 0.5
+        },
+        {
+          "entry": {
+            "institutionId": "IR-E-C-24004",
+            "name": "AU College of Engineering (A)",
+            "pdfUrl": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Engineering/IR-E-C-24004.pdf"
+          },
+          "score": 0.3731343283582089
+        }
+      ]
+    },
+    {
+      "college": {
+        "college_id": 210,
+        "college_code": "1149",
+        "college_name": "Road (OMR), Chennai 600119"
+      },
+      "reason": "ambiguous_name_match",
+      "candidates": [
+        {
+          "entry": {
+            "institutionId": "IR-E-U-0456",
+            "name": "Indian Institute of Technology Madras",
+            "pdfUrl": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Engineering/IR-E-U-0456.pdf"
+          },
+          "score": 0
+        },
+        {
+          "entry": {
+            "institutionId": "IR-E-I-1074",
+            "name": "Indian Institute of Technology Delhi",
+            "pdfUrl": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Engineering/IR-E-I-1074.pdf"
+          },
+          "score": 0
+        },
+        {
+          "entry": {
+            "institutionId": "IR-E-U-0306",
+            "name": "Indian Institute of Technology Bombay",
+            "pdfUrl": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Engineering/IR-E-U-0306.pdf"
+          },
+          "score": 0
+        }
+      ]
+    },
+    {
+      "college": {
+        "college_id": 217,
+        "college_code": "1211",
+        "college_name": "Rajalakshmi Engineering College (Autonomous), Thandalam, Sriperumpudur Taluk, Kancheepuram District 602105"
+      },
+      "reason": "ambiguous_name_match",
+      "candidates": [
+        {
+          "entry": {
+            "institutionId": "IR-E-U-0584",
+            "name": "Indian Institute of Engineering Science and Technology, Shibpur",
+            "pdfUrl": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Engineering/IR-E-U-0584.pdf"
+          },
+          "score": 0.32258064516129037
+        },
+        {
+          "entry": {
+            "institutionId": "IR-E-I-1480",
+            "name": "Thapar Institute of Engineering and Technology (Deemed-to-be-university)",
+            "pdfUrl": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Engineering/IR-E-I-1480.pdf"
+          },
+          "score": 0.3142857142857143
+        },
+        {
+          "entry": {
+            "institutionId": "IR-E-U-0098",
+            "name": "Delhi Technological University",
+            "pdfUrl": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Engineering/IR-E-U-0098.pdf"
+          },
+          "score": 0.2727272727272727
+        }
+      ]
+    },
+    {
+      "college": {
+        "college_id": 220,
+        "college_code": "1216",
+        "college_name": "Saveetha Engineering College (Autonomous), Thandalam, Sriperumpudur Taluk, Kancheepuram District 602105"
+      },
+      "reason": "ambiguous_name_match",
+      "candidates": [
+        {
+          "entry": {
+            "institutionId": "IR-E-U-0584",
+            "name": "Indian Institute of Engineering Science and Technology, Shibpur",
+            "pdfUrl": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Engineering/IR-E-U-0584.pdf"
+          },
+          "score": 0.32258064516129037
+        },
+        {
+          "entry": {
+            "institutionId": "IR-E-I-1441",
+            "name": "Saveetha Institute of Medical and Technical Sciences",
+            "pdfUrl": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Engineering/IR-E-I-1441.pdf"
+          },
+          "score": 0.3076923076923077
+        },
+        {
+          "entry": {
+            "institutionId": "IR-E-I-1480",
+            "name": "Thapar Institute of Engineering and Technology (Deemed-to-be-university)",
+            "pdfUrl": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Engineering/IR-E-I-1480.pdf"
+          },
+          "score": 0.30000000000000004
+        }
+      ]
+    },
+    {
+      "college": {
+        "college_id": 223,
+        "college_code": "1219",
+        "college_name": "Sri Venkateswara College of Engineering (Autonomous), Post Bag No.1, Chennai-Bengaluru High Road, Pennalur, Irungattukottai S.O., Sriperumbudur Taluk, Kancheepuram District 602105"
+      },
+      "reason": "ambiguous_name_match",
+      "candidates": [
+        {
+          "entry": {
+            "institutionId": "IR-E-C-16604",
+            "name": "Sri Sivasubramaniya Nadar College of Engineering",
+            "pdfUrl": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Engineering/IR-E-C-16604.pdf"
+          },
+          "score": 0.6458333333333333
+        },
+        {
+          "entry": {
+            "institutionId": "IR-E-C-24004",
+            "name": "AU College of Engineering (A)",
+            "pdfUrl": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Engineering/IR-E-C-24004.pdf"
+          },
+          "score": 0.5641025641025641
+        },
+        {
+          "entry": {
+            "institutionId": "IR-E-C-36995",
+            "name": "Sri Krishna College of Engineering and Technology",
+            "pdfUrl": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Engineering/IR-E-C-36995.pdf"
+          },
+          "score": 0.5102040816326531
+        }
+      ]
+    },
+    {
+      "college": {
+        "college_id": 240,
+        "college_code": "1304",
+        "college_name": "Easwari Engineering College (Autonomous), Ramapuram, Chennai 600089"
+      },
+      "reason": "ambiguous_name_match",
+      "candidates": [
+        {
+          "entry": {
+            "institutionId": "IR-E-I-1480",
+            "name": "Thapar Institute of Engineering and Technology (Deemed-to-be-university)",
+            "pdfUrl": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Engineering/IR-E-I-1480.pdf"
+          },
+          "score": 0.3142857142857143
+        },
+        {
+          "entry": {
+            "institutionId": "IR-E-U-0584",
+            "name": "Indian Institute of Engineering Science and Technology, Shibpur",
+            "pdfUrl": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Engineering/IR-E-U-0584.pdf"
+          },
+          "score": 0.30645161290322576
+        },
+        {
+          "entry": {
+            "institutionId": "IR-E-U-0020",
+            "name": "Koneru Lakshmaiah Education Foundation University (K L College of Engineering)",
+            "pdfUrl": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Engineering/IR-E-U-0020.pdf"
+          },
+          "score": 0.25
+        }
+      ]
+    },
+    {
+      "college": {
+        "college_id": 249,
+        "college_code": "1317",
+        "college_name": "St. Joseph’s College of Engineering (Autonomous), Old Mahabalipuram Road (OMR), Chennai 600 119"
+      },
+      "reason": "ambiguous_name_match",
+      "candidates": [
+        {
+          "entry": {
+            "institutionId": "IR-E-C-36995",
+            "name": "Sri Krishna College of Engineering and Technology",
+            "pdfUrl": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Engineering/IR-E-C-36995.pdf"
+          },
+          "score": 0.5576923076923077
+        },
+        {
+          "entry": {
+            "institutionId": "IR-E-C-24004",
+            "name": "AU College of Engineering (A)",
+            "pdfUrl": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Engineering/IR-E-C-24004.pdf"
+          },
+          "score": 0.4807692307692307
+        },
+        {
+          "entry": {
+            "institutionId": "IR-E-U-0384",
+            "name": "Sant Longowal Institute of Engineering & Technology",
+            "pdfUrl": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Engineering/IR-E-U-0384.pdf"
+          },
+          "score": 0.3846153846153846
+        }
+      ]
+    },
+    {
+      "college": {
+        "college_id": 254,
+        "college_code": "1324",
+        "college_name": "Sri Sai Ram Institute of Technology (Autonomous), West Tambaram, Chennai 600044"
+      },
+      "reason": "ambiguous_name_match",
+      "candidates": [
+        {
+          "entry": {
+            "institutionId": "IR-E-U-0456",
+            "name": "Indian Institute of Technology Madras",
+            "pdfUrl": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Engineering/IR-E-U-0456.pdf"
+          },
+          "score": 0.5535714285714286
+        },
+        {
+          "entry": {
+            "institutionId": "IR-E-U-0306",
+            "name": "Indian Institute of Technology Bombay",
+            "pdfUrl": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Engineering/IR-E-U-0306.pdf"
+          },
+          "score": 0.5535714285714286
+        },
+        {
+          "entry": {
+            "institutionId": "IR-E-U-0573",
+            "name": "Indian Institute of Technology Kharagpur",
+            "pdfUrl": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Engineering/IR-E-U-0573.pdf"
+          },
+          "score": 0.5535714285714286
+        }
+      ]
+    },
+    {
+      "college": {
+        "college_id": 260,
+        "college_code": "1399",
+        "college_name": "Post, Kundrathur,Chennai 600069"
+      },
+      "reason": "ambiguous_name_match",
+      "candidates": [
+        {
+          "entry": {
+            "institutionId": "IR-E-U-0456",
+            "name": "Indian Institute of Technology Madras",
+            "pdfUrl": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Engineering/IR-E-U-0456.pdf"
+          },
+          "score": 0
+        },
+        {
+          "entry": {
+            "institutionId": "IR-E-I-1074",
+            "name": "Indian Institute of Technology Delhi",
+            "pdfUrl": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Engineering/IR-E-I-1074.pdf"
+          },
+          "score": 0
+        },
+        {
+          "entry": {
+            "institutionId": "IR-E-U-0306",
+            "name": "Indian Institute of Technology Bombay",
+            "pdfUrl": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Engineering/IR-E-U-0306.pdf"
+          },
+          "score": 0
+        }
+      ]
+    },
+    {
+      "college": {
+        "college_id": 271,
+        "college_code": "1414",
+        "college_name": "Prince Shri Venkateshwara Padmavathy Engineering College(Autonomous), Ponmar, Chennai 600048"
+      },
+      "reason": "ambiguous_name_match",
+      "candidates": [
+        {
+          "entry": {
+            "institutionId": "IR-E-C-36995",
+            "name": "Sri Krishna College of Engineering and Technology",
+            "pdfUrl": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Engineering/IR-E-C-36995.pdf"
+          },
+          "score": 0.34285714285714286
+        },
+        {
+          "entry": {
+            "institutionId": "IR-E-C-16604",
+            "name": "Sri Sivasubramaniya Nadar College of Engineering",
+            "pdfUrl": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Engineering/IR-E-C-16604.pdf"
+          },
+          "score": 0.3285714285714286
+        },
+        {
+          "entry": {
+            "institutionId": "IR-E-U-0384",
+            "name": "Sant Longowal Institute of Engineering & Technology",
+            "pdfUrl": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Engineering/IR-E-U-0384.pdf"
+          },
+          "score": 0.2857142857142857
+        }
+      ]
+    },
+    {
+      "college": {
+        "college_id": 274,
+        "college_code": "1419",
+        "college_name": "Sri Sai Ram Enginering College (Autonomous), West Tambaram, Chennai"
+      },
+      "reason": "ambiguous_name_match",
+      "candidates": [
+        {
+          "entry": {
+            "institutionId": "IR-E-C-16604",
+            "name": "Sri Sivasubramaniya Nadar College of Engineering",
+            "pdfUrl": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Engineering/IR-E-C-16604.pdf"
+          },
+          "score": 0.39583333333333337
+        },
+        {
+          "entry": {
+            "institutionId": "IR-E-I-1480",
+            "name": "Thapar Institute of Engineering and Technology (Deemed-to-be-university)",
+            "pdfUrl": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Engineering/IR-E-I-1480.pdf"
+          },
+          "score": 0.3571428571428571
+        },
+        {
+          "entry": {
+            "institutionId": "IR-E-U-0584",
+            "name": "Indian Institute of Engineering Science and Technology, Shibpur",
+            "pdfUrl": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Engineering/IR-E-U-0584.pdf"
+          },
+          "score": 0.33870967741935487
+        }
+      ]
+    },
+    {
+      "college": {
+        "college_id": 285,
+        "college_code": "1432",
+        "college_name": "Rajalakshmi Institute of Technology, Irulapalayam, (Autonomous) Kuthampakkam Post, Kancheepuram District, Chennai 600124"
+      },
+      "reason": "ambiguous_name_match",
+      "candidates": [
+        {
+          "entry": {
+            "institutionId": "IR-E-U-0237",
+            "name": "National Institute of Technology Karnataka, Surathkal",
+            "pdfUrl": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Engineering/IR-E-U-0237.pdf"
+          },
+          "score": 0.5573770491803278
+        },
+        {
+          "entry": {
+            "institutionId": "IR-E-U-0878",
+            "name": "Indian Institute of Technology Palakkad",
+            "pdfUrl": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Engineering/IR-E-U-0878.pdf"
+          },
+          "score": 0.540983606557377
+        },
+        {
+          "entry": {
+            "institutionId": "IR-E-U-0467",
+            "name": "National Institute of Technology Tiruchirappalli",
+            "pdfUrl": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Engineering/IR-E-U-0467.pdf"
+          },
+          "score": 0.5081967213114754
+        }
+      ]
+    },
+    {
+      "college": {
+        "college_id": 319,
+        "college_code": "1533",
+        "college_name": "Panimalar Engineering College Chennai City Campus, No.23, Railway Colony"
+      },
+      "reason": "ambiguous_name_match",
+      "candidates": [
+        {
+          "entry": {
+            "institutionId": "IR-E-I-1480",
+            "name": "Thapar Institute of Engineering and Technology (Deemed-to-be-university)",
+            "pdfUrl": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Engineering/IR-E-I-1480.pdf"
+          },
+          "score": 0.37142857142857144
+        },
+        {
+          "entry": {
+            "institutionId": "IR-E-C-36995",
+            "name": "Sri Krishna College of Engineering and Technology",
+            "pdfUrl": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Engineering/IR-E-C-36995.pdf"
+          },
+          "score": 0.36734693877551017
+        },
+        {
+          "entry": {
+            "institutionId": "IR-E-U-0017",
+            "name": "Jawaharlal Nehru Technological University",
+            "pdfUrl": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Engineering/IR-E-U-0017.pdf"
+          },
+          "score": 0.36585365853658536
+        }
+      ]
+    },
+    {
+      "college": {
+        "college_id": 323,
+        "college_code": "2007",
+        "college_name": "Coimbatore Institute of Technology (Autonomous), Civil Aerodrome Post, Coimbatore District 641014"
+      },
+      "reason": "ambiguous_name_match",
+      "candidates": [
+        {
+          "entry": {
+            "institutionId": "IR-E-U-0391",
+            "name": "Birla Institute of Technology & Science -Pilani",
+            "pdfUrl": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Engineering/IR-E-U-0391.pdf"
+          },
+          "score": 0.5681818181818181
+        },
+        {
+          "entry": {
+            "institutionId": "IR-E-U-0205",
+            "name": "Indian Institute of Technology (Indian School of Mines)",
+            "pdfUrl": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Engineering/IR-E-U-0205.pdf"
+          },
+          "score": 0.5660377358490566
+        },
+        {
+          "entry": {
+            "institutionId": "IR-E-U-0560",
+            "name": "Indian Institute of Technology Roorkee",
+            "pdfUrl": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Engineering/IR-E-U-0560.pdf"
+          },
+          "score": 0.5384615384615384
+        }
+      ]
+    },
+    {
+      "college": {
+        "college_id": 329,
+        "college_code": "2329",
+        "college_name": "Rathinam Technical Campus(Autonomous), Pollachi Road, Eachanari, Coimbatore District 641021"
+      },
+      "reason": "ambiguous_name_match",
+      "candidates": [
+        {
+          "entry": {
+            "institutionId": "IR-E-U-0263",
+            "name": "National Institute of Technology Calicut",
+            "pdfUrl": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Engineering/IR-E-U-0263.pdf"
+          },
+          "score": 0.32499999999999996
+        },
+        {
+          "entry": {
+            "institutionId": "IR-E-U-0055",
+            "name": "National Institute of Technology Silchar",
+            "pdfUrl": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Engineering/IR-E-U-0055.pdf"
+          },
+          "score": 0.32499999999999996
+        },
+        {
+          "entry": {
+            "institutionId": "IR-E-U-0017",
+            "name": "Jawaharlal Nehru Technological University",
+            "pdfUrl": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Engineering/IR-E-U-0017.pdf"
+          },
+          "score": 0.31707317073170727
+        }
+      ]
+    },
+    {
+      "college": {
+        "college_id": 355,
+        "college_code": "2377",
+        "college_name": "641062"
+      },
+      "reason": "ambiguous_name_match",
+      "candidates": [
+        {
+          "entry": {
+            "institutionId": "IR-E-U-0456",
+            "name": "Indian Institute of Technology Madras",
+            "pdfUrl": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Engineering/IR-E-U-0456.pdf"
+          },
+          "score": 0
+        },
+        {
+          "entry": {
+            "institutionId": "IR-E-I-1074",
+            "name": "Indian Institute of Technology Delhi",
+            "pdfUrl": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Engineering/IR-E-I-1074.pdf"
+          },
+          "score": 0
+        },
+        {
+          "entry": {
+            "institutionId": "IR-E-U-0306",
+            "name": "Indian Institute of Technology Bombay",
+            "pdfUrl": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Engineering/IR-E-U-0306.pdf"
+          },
+          "score": 0
+        }
+      ]
+    },
+    {
+      "college": {
+        "college_id": 361,
+        "college_code": "2608",
+        "college_name": "M Kumarasamy College of Engineering (Autonomous), Thalavapalayam, Karur District 639113"
+      },
+      "reason": "ambiguous_name_match",
+      "candidates": [
+        {
+          "entry": {
+            "institutionId": "IR-E-C-36995",
+            "name": "Sri Krishna College of Engineering and Technology",
+            "pdfUrl": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Engineering/IR-E-C-36995.pdf"
+          },
+          "score": 0.4821428571428571
+        },
+        {
+          "entry": {
+            "institutionId": "IR-E-C-24004",
+            "name": "AU College of Engineering (A)",
+            "pdfUrl": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Engineering/IR-E-C-24004.pdf"
+          },
+          "score": 0.4642857142857143
+        },
+        {
+          "entry": {
+            "institutionId": "IR-E-U-0584",
+            "name": "Indian Institute of Engineering Science and Technology, Shibpur",
+            "pdfUrl": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Engineering/IR-E-U-0584.pdf"
+          },
+          "score": 0.30645161290322576
+        }
+      ]
+    },
+    {
+      "college": {
+        "college_id": 371,
+        "college_code": "2618",
+        "college_name": "Sona College of Technology (Autonomous), Suramangalam Post, Salem District"
+      },
+      "reason": "ambiguous_name_match",
+      "candidates": [
+        {
+          "entry": {
+            "institutionId": "IR-E-C-37013",
+            "name": "PSG College of Technology",
+            "pdfUrl": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Engineering/IR-E-C-37013.pdf"
+          },
+          "score": 0.5641025641025641
+        },
+        {
+          "entry": {
+            "institutionId": "IR-E-U-0025",
+            "name": "National Institute of Technology Warangal",
+            "pdfUrl": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Engineering/IR-E-U-0025.pdf"
+          },
+          "score": 0.5365853658536586
+        },
+        {
+          "entry": {
+            "institutionId": "IR-E-U-0197",
+            "name": "National Institute of Technology Srinagar",
+            "pdfUrl": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Engineering/IR-E-U-0197.pdf"
+          },
+          "score": 0.5121951219512195
+        }
+      ]
+    },
+    {
+      "college": {
+        "college_id": 412,
+        "college_code": "2708",
+        "college_name": "Hindusthan College of Engineering and Technology (Autonomous), Othakkalmandapam Post, Coimbatore District 641032"
+      },
+      "reason": "ambiguous_name_match",
+      "candidates": [
+        {
+          "entry": {
+            "institutionId": "IR-E-C-36995",
+            "name": "Sri Krishna College of Engineering and Technology",
+            "pdfUrl": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Engineering/IR-E-C-36995.pdf"
+          },
+          "score": 0.6
+        },
+        {
+          "entry": {
+            "institutionId": "IR-E-U-0584",
+            "name": "Indian Institute of Engineering Science and Technology, Shibpur",
+            "pdfUrl": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Engineering/IR-E-U-0584.pdf"
+          },
+          "score": 0.46153846153846156
+        },
+        {
+          "entry": {
+            "institutionId": "IR-E-I-1480",
+            "name": "Thapar Institute of Engineering and Technology (Deemed-to-be-university)",
+            "pdfUrl": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Engineering/IR-E-I-1480.pdf"
+          },
+          "score": 0.4571428571428572
+        }
+      ]
+    },
+    {
+      "college": {
+        "college_id": 414,
+        "college_code": "2710",
+        "college_name": "Karpagam College of Engineering (Autonomous), Othakkalmandapam, Coimbatore District 641032"
+      },
+      "reason": "ambiguous_name_match",
+      "candidates": [
+        {
+          "entry": {
+            "institutionId": "IR-E-C-24004",
+            "name": "AU College of Engineering (A)",
+            "pdfUrl": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Engineering/IR-E-C-24004.pdf"
+          },
+          "score": 0.5416666666666667
+        },
+        {
+          "entry": {
+            "institutionId": "IR-E-C-36995",
+            "name": "Sri Krishna College of Engineering and Technology",
+            "pdfUrl": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Engineering/IR-E-C-36995.pdf"
+          },
+          "score": 0.4897959183673469
+        },
+        {
+          "entry": {
+            "institutionId": "IR-E-C-37013",
+            "name": "PSG College of Technology",
+            "pdfUrl": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Engineering/IR-E-C-37013.pdf"
+          },
+          "score": 0.375
+        }
+      ]
+    },
+    {
+      "college": {
+        "college_id": 415,
+        "college_code": "2711",
+        "college_name": "Kongu Engineering College (Autonomous), Perundurai, Erode District 638052 Kongu School of Architecture, Kongu Engineering College Campus, Perundurai"
+      },
+      "reason": "ambiguous_name_match",
+      "candidates": [
+        {
+          "entry": {
+            "institutionId": "IR-E-I-1480",
+            "name": "Thapar Institute of Engineering and Technology (Deemed-to-be-university)",
+            "pdfUrl": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Engineering/IR-E-I-1480.pdf"
+          },
+          "score": 0.37142857142857144
+        },
+        {
+          "entry": {
+            "institutionId": "IR-E-U-0584",
+            "name": "Indian Institute of Engineering Science and Technology, Shibpur",
+            "pdfUrl": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Engineering/IR-E-U-0584.pdf"
+          },
+          "score": 0.33870967741935487
+        },
+        {
+          "entry": {
+            "institutionId": "IR-E-U-0020",
+            "name": "Koneru Lakshmaiah Education Foundation University (K L College of Engineering)",
+            "pdfUrl": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Engineering/IR-E-U-0020.pdf"
+          },
+          "score": 0.3157894736842105
+        }
+      ]
+    },
+    {
+      "college": {
+        "college_id": 416,
+        "college_code": "2712",
+        "college_name": "Kumaraguru College of Technology (Autonomous), Chinnavedampatti Post, Coimbatore District 641006"
+      },
+      "reason": "ambiguous_name_match",
+      "candidates": [
+        {
+          "entry": {
+            "institutionId": "IR-E-C-37013",
+            "name": "PSG College of Technology",
+            "pdfUrl": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Engineering/IR-E-C-37013.pdf"
+          },
+          "score": 0.4693877551020408
+        },
+        {
+          "entry": {
+            "institutionId": "IR-E-U-0391",
+            "name": "Birla Institute of Technology & Science -Pilani",
+            "pdfUrl": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Engineering/IR-E-U-0391.pdf"
+          },
+          "score": 0.44897959183673475
+        },
+        {
+          "entry": {
+            "institutionId": "IR-E-U-0844",
+            "name": "Indian Institute of Technology, Tirupati",
+            "pdfUrl": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Engineering/IR-E-U-0844.pdf"
+          },
+          "score": 0.44897959183673475
+        }
+      ]
+    },
+    {
+      "college": {
+        "college_id": 422,
+        "college_code": "2719",
+        "college_name": "Sri Ramakrishna Engineering College (Autonomous), Vattamalaipalayam, Coimbatore District 641022"
+      },
+      "reason": "ambiguous_name_match",
+      "candidates": [
+        {
+          "entry": {
+            "institutionId": "IR-E-C-16604",
+            "name": "Sri Sivasubramaniya Nadar College of Engineering",
+            "pdfUrl": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Engineering/IR-E-C-16604.pdf"
+          },
+          "score": 0.3207547169811321
+        },
+        {
+          "entry": {
+            "institutionId": "IR-E-U-0584",
+            "name": "Indian Institute of Engineering Science and Technology, Shibpur",
+            "pdfUrl": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Engineering/IR-E-U-0584.pdf"
+          },
+          "score": 0.30645161290322576
+        },
+        {
+          "entry": {
+            "institutionId": "IR-E-C-36995",
+            "name": "Sri Krishna College of Engineering and Technology",
+            "pdfUrl": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Engineering/IR-E-C-36995.pdf"
+          },
+          "score": 0.30188679245283023
+        }
+      ]
+    },
+    {
+      "college": {
+        "college_id": 427,
+        "college_code": "2726",
+        "college_name": "SNS College of Technology (Autonomous), Kalappatti Post, Coimbatore District"
+      },
+      "reason": "ambiguous_name_match",
+      "candidates": [
+        {
+          "entry": {
+            "institutionId": "IR-E-C-37013",
+            "name": "PSG College of Technology",
+            "pdfUrl": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Engineering/IR-E-C-37013.pdf"
+          },
+          "score": 0.6111111111111112
+        },
+        {
+          "entry": {
+            "institutionId": "IR-E-U-0053",
+            "name": "Indian Institute of Technology Guwahati",
+            "pdfUrl": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Engineering/IR-E-U-0053.pdf"
+          },
+          "score": 0.5128205128205128
+        },
+        {
+          "entry": {
+            "institutionId": "IR-E-U-0844",
+            "name": "Indian Institute of Technology, Tirupati",
+            "pdfUrl": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Engineering/IR-E-U-0844.pdf"
+          },
+          "score": 0.5128205128205128
+        }
+      ]
+    },
+    {
+      "college": {
+        "college_id": 438,
+        "college_code": "2739",
+        "college_name": "Sri Eshwar College of Engineering (Autonomous), Kondampatti Post, Vadasithur (Via), Kinathukadavu, Coimbatore District 641202"
+      },
+      "reason": "ambiguous_name_match",
+      "candidates": [
+        {
+          "entry": {
+            "institutionId": "IR-E-C-36995",
+            "name": "Sri Krishna College of Engineering and Technology",
+            "pdfUrl": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Engineering/IR-E-C-36995.pdf"
+          },
+          "score": 0.6326530612244898
+        },
+        {
+          "entry": {
+            "institutionId": "IR-E-C-24004",
+            "name": "AU College of Engineering (A)",
+            "pdfUrl": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Engineering/IR-E-C-24004.pdf"
+          },
+          "score": 0.5777777777777777
+        },
+        {
+          "entry": {
+            "institutionId": "IR-E-U-0384",
+            "name": "Sant Longowal Institute of Engineering & Technology",
+            "pdfUrl": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Engineering/IR-E-U-0384.pdf"
+          },
+          "score": 0.4285714285714286
+        }
+      ]
+    },
+    {
+      "college": {
+        "college_id": 447,
+        "college_code": "2750",
+        "college_name": "KIT - Kalaignar Karunanidhi Institute of Technology (Autonomous), Kannampalayam, Coimbatore District 641402"
+      },
+      "reason": "ambiguous_name_match",
+      "candidates": [
+        {
+          "entry": {
+            "institutionId": "IR-E-U-0334",
+            "name": "Visvesvaraya National Institute of Technology, Nagpur",
+            "pdfUrl": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Engineering/IR-E-U-0334.pdf"
+          },
+          "score": 0.5396825396825398
+        },
+        {
+          "entry": {
+            "institutionId": "IR-E-U-0374",
+            "name": "Dr. B R Ambedkar National Institute of Technology, Jalandhar",
+            "pdfUrl": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Engineering/IR-E-U-0374.pdf"
+          },
+          "score": 0.5396825396825398
+        },
+        {
+          "entry": {
+            "institutionId": "IR-E-U-0619",
+            "name": "National Institute of Technology Meghalaya",
+            "pdfUrl": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Engineering/IR-E-U-0619.pdf"
+          },
+          "score": 0.5396825396825398
+        }
+      ]
+    },
+    {
+      "college": {
+        "college_id": 457,
+        "college_code": "2764",
+        "college_name": "K P R Institute of Engineering and Technology (Autonomous), Kollupalayam Village, Arasur Panchayat, Coimbatore District 641407"
+      },
+      "reason": "ambiguous_name_match",
+      "candidates": [
+        {
+          "entry": {
+            "institutionId": "IR-E-I-1480",
+            "name": "Thapar Institute of Engineering and Technology (Deemed-to-be-university)",
+            "pdfUrl": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Engineering/IR-E-I-1480.pdf"
+          },
+          "score": 0.5662650602409638
+        },
+        {
+          "entry": {
+            "institutionId": "IR-E-U-0584",
+            "name": "Indian Institute of Engineering Science and Technology, Shibpur",
+            "pdfUrl": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Engineering/IR-E-U-0584.pdf"
+          },
+          "score": 0.42168674698795183
+        },
+        {
+          "entry": {
+            "institutionId": "IR-E-U-0473",
+            "name": "S.R.M. Institute of Science and Technology",
+            "pdfUrl": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Engineering/IR-E-U-0473.pdf"
+          },
+          "score": 0.3975903614457831
+        }
+      ]
+    },
+    {
+      "college": {
+        "college_id": 485,
+        "college_code": "3701",
+        "college_name": "K Ramakrishnan College of Technology (Autonomous), Kariyamanickam Road, Samayapuram, Manachanallur Taluk, Tiruchirappalli District 621112"
+      },
+      "reason": "ambiguous_name_match",
+      "candidates": [
+        {
+          "entry": {
+            "institutionId": "IR-E-U-0025",
+            "name": "National Institute of Technology Warangal",
+            "pdfUrl": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Engineering/IR-E-U-0025.pdf"
+          },
+          "score": 0.47058823529411764
+        },
+        {
+          "entry": {
+            "institutionId": "IR-E-U-0878",
+            "name": "Indian Institute of Technology Palakkad",
+            "pdfUrl": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Engineering/IR-E-U-0878.pdf"
+          },
+          "score": 0.4509803921568627
+        },
+        {
+          "entry": {
+            "institutionId": "IR-E-C-37013",
+            "name": "PSG College of Technology",
+            "pdfUrl": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Engineering/IR-E-C-37013.pdf"
+          },
+          "score": 0.4509803921568627
+        }
+      ]
+    },
+    {
+      "college": {
+        "college_id": 498,
+        "college_code": "3806",
+        "college_name": "E G S Pillay Engineering College (Autonomous), Nagapattinam District 611002"
+      },
+      "reason": "ambiguous_name_match",
+      "candidates": [
+        {
+          "entry": {
+            "institutionId": "IR-E-U-0584",
+            "name": "Indian Institute of Engineering Science and Technology, Shibpur",
+            "pdfUrl": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Engineering/IR-E-U-0584.pdf"
+          },
+          "score": 0.32258064516129037
+        },
+        {
+          "entry": {
+            "institutionId": "IR-E-I-1480",
+            "name": "Thapar Institute of Engineering and Technology (Deemed-to-be-university)",
+            "pdfUrl": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Engineering/IR-E-I-1480.pdf"
+          },
+          "score": 0.3142857142857143
+        },
+        {
+          "entry": {
+            "institutionId": "IR-E-C-24004",
+            "name": "AU College of Engineering (A)",
+            "pdfUrl": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Engineering/IR-E-C-24004.pdf"
+          },
+          "score": 0.3111111111111111
+        }
+      ]
+    },
+    {
+      "college": {
+        "college_id": 516,
+        "college_code": "3830",
+        "college_name": "K Ramakrishnan College of Engineering (Autonomous), Kariyamanickam Road, Samayapuram, Manachanallur Taluk, Tiruchirappalli District 621112"
+      },
+      "reason": "ambiguous_name_match",
+      "candidates": [
+        {
+          "entry": {
+            "institutionId": "IR-E-C-36995",
+            "name": "Sri Krishna College of Engineering and Technology",
+            "pdfUrl": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Engineering/IR-E-C-36995.pdf"
+          },
+          "score": 0.6346153846153846
+        },
+        {
+          "entry": {
+            "institutionId": "IR-E-C-24004",
+            "name": "AU College of Engineering (A)",
+            "pdfUrl": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Engineering/IR-E-C-24004.pdf"
+          },
+          "score": 0.5
+        },
+        {
+          "entry": {
+            "institutionId": "IR-E-C-16604",
+            "name": "Sri Sivasubramaniya Nadar College of Engineering",
+            "pdfUrl": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Engineering/IR-E-C-16604.pdf"
+          },
+          "score": 0.3653846153846154
+        }
+      ]
+    },
+    {
+      "college": {
+        "college_id": 578,
+        "college_code": "4960",
+        "college_name": "Mepco Schlenk Engineering College (Autonomous), Sivakasi, Virudhunagar District 626005"
+      },
+      "reason": "ambiguous_name_match",
+      "candidates": [
+        {
+          "entry": {
+            "institutionId": "IR-E-I-1480",
+            "name": "Thapar Institute of Engineering and Technology (Deemed-to-be-university)",
+            "pdfUrl": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Engineering/IR-E-I-1480.pdf"
+          },
+          "score": 0.3285714285714286
+        },
+        {
+          "entry": {
+            "institutionId": "IR-E-U-0584",
+            "name": "Indian Institute of Engineering Science and Technology, Shibpur",
+            "pdfUrl": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Engineering/IR-E-U-0584.pdf"
+          },
+          "score": 0.30645161290322576
+        },
+        {
+          "entry": {
+            "institutionId": "IR-E-C-24004",
+            "name": "AU College of Engineering (A)",
+            "pdfUrl": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Engineering/IR-E-C-24004.pdf"
+          },
+          "score": 0.2909090909090909
+        }
+      ]
+    },
+    {
+      "college": {
+        "college_id": 580,
+        "college_code": "4962",
+        "college_name": "National Engineering College (Autonomous), Kovilpatti, Thoothukudi District"
+      },
+      "reason": "ambiguous_name_match",
+      "candidates": [
+        {
+          "entry": {
+            "institutionId": "IR-E-U-0237",
+            "name": "National Institute of Technology Karnataka, Surathkal",
+            "pdfUrl": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Engineering/IR-E-U-0237.pdf"
+          },
+          "score": 0.3653846153846154
+        },
+        {
+          "entry": {
+            "institutionId": "IR-E-U-0357",
+            "name": "National Institute of Technology Rourkela",
+            "pdfUrl": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Engineering/IR-E-U-0357.pdf"
+          },
+          "score": 0.33333333333333337
+        },
+        {
+          "entry": {
+            "institutionId": "IR-E-U-0622",
+            "name": "National Institute of Technology Delhi",
+            "pdfUrl": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Engineering/IR-E-U-0622.pdf"
+          },
+          "score": 0.33333333333333337
+        }
+      ]
+    },
+    {
+      "college": {
+        "college_id": 609,
+        "college_code": "5008",
+        "college_name": "Thiagarajar College of Engineering (Autonomous),Tirupparankundram, Madurai District 625015"
+      },
+      "reason": "ambiguous_name_match",
+      "candidates": [
+        {
+          "entry": {
+            "institutionId": "IR-E-C-24004",
+            "name": "AU College of Engineering (A)",
+            "pdfUrl": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Engineering/IR-E-C-24004.pdf"
+          },
+          "score": 0.5
+        },
+        {
+          "entry": {
+            "institutionId": "IR-E-C-36995",
+            "name": "Sri Krishna College of Engineering and Technology",
+            "pdfUrl": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Engineering/IR-E-C-36995.pdf"
+          },
+          "score": 0.5
+        },
+        {
+          "entry": {
+            "institutionId": "IR-E-U-0384",
+            "name": "Sant Longowal Institute of Engineering & Technology",
+            "pdfUrl": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Engineering/IR-E-U-0384.pdf"
+          },
+          "score": 0.34615384615384615
+        }
+      ]
+    },
+    {
+      "college": {
+        "college_id": 635,
+        "college_code": "5910",
+        "college_name": "P S N A Colllege of Engineering and Technology, Dindigul District 624622"
+      },
+      "reason": "ambiguous_name_match",
+      "candidates": [
+        {
+          "entry": {
+            "institutionId": "IR-E-C-36995",
+            "name": "Sri Krishna College of Engineering and Technology",
+            "pdfUrl": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Engineering/IR-E-C-36995.pdf"
+          },
+          "score": 0.6727272727272727
+        },
+        {
+          "entry": {
+            "institutionId": "IR-E-U-0584",
+            "name": "Indian Institute of Engineering Science and Technology, Shibpur",
+            "pdfUrl": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Engineering/IR-E-U-0584.pdf"
+          },
+          "score": 0.532258064516129
+        },
+        {
+          "entry": {
+            "institutionId": "IR-E-I-1480",
+            "name": "Thapar Institute of Engineering and Technology (Deemed-to-be-university)",
+            "pdfUrl": "https://www.nirfindia.org/nirfpdfcdn/2025/pdf/Engineering/IR-E-I-1480.pdf"
+          },
+          "score": 0.5
+        }
+      ]
+    }
+  ]
+}

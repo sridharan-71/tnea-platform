@@ -1,0 +1,1845 @@
+{
+  "summary": {
+    "generatedAt": "2026-07-22T05:53:22.864Z",
+    "years": [
+      2023,
+      2024,
+      2025
+    ],
+    "totalRows": 20510,
+    "uniqueKeys": 10255,
+    "duplicateKeyCount": 10255,
+    "duplicateRowCount": 10255,
+    "identicalDuplicateKeyCount": 10255,
+    "conflictingDuplicateKeyCount": 0,
+    "nullOnlyRowCount": 1452,
+    "rankColumnSemantics": "unverified",
+    "roundSemantics": "unverified",
+    "sourceProvenanceAvailableInQuery": false,
+    "byYear": {
+      "2023": {
+        "rows": 6648,
+        "uniqueKeys": 3324,
+        "duplicateRows": 3324,
+        "nullOnlyRows": 570
+      },
+      "2024": {
+        "rows": 6948,
+        "uniqueKeys": 3474,
+        "duplicateRows": 3474,
+        "nullOnlyRows": 572
+      },
+      "2025": {
+        "rows": 6914,
+        "uniqueKeys": 3457,
+        "duplicateRows": 3457,
+        "nullOnlyRows": 310
+      }
+    }
+  },
+  "conflictingDuplicates": [],
+  "identicalDuplicateSamples": [
+    {
+      "key": "2023-1-BY",
+      "occurrences": 2,
+      "values": {
+        "oc": 2794,
+        "bc": 5407,
+        "bcm": 3745,
+        "mbc": 8728,
+        "sc": 13686,
+        "sca": 42751,
+        "st": null
+      }
+    },
+    {
+      "key": "2023-1-CE",
+      "occurrences": 2,
+      "values": {
+        "oc": 4381,
+        "bc": 7534,
+        "bcm": 4847,
+        "mbc": 10276,
+        "sc": 15211,
+        "sca": 27632,
+        "st": 21614
+      }
+    },
+    {
+      "key": "2023-1-CM",
+      "occurrences": 2,
+      "values": {
+        "oc": 170,
+        "bc": 313,
+        "bcm": 536,
+        "mbc": 489,
+        "sc": 2255,
+        "sca": 21395,
+        "st": 4881
+      }
+    },
+    {
+      "key": "2023-1-CS",
+      "occurrences": 2,
+      "values": {
+        "oc": 32,
+        "bc": 80,
+        "bcm": 134,
+        "mbc": 138,
+        "sc": 668,
+        "sca": 12008,
+        "st": null
+      }
+    },
+    {
+      "key": "2023-1-EC",
+      "occurrences": 2,
+      "values": {
+        "oc": 93,
+        "bc": 214,
+        "bcm": 988,
+        "mbc": 765,
+        "sc": 2859,
+        "sca": 11536,
+        "st": 18015
+      }
+    },
+    {
+      "key": "2023-1-EE",
+      "occurrences": 2,
+      "values": {
+        "oc": 872,
+        "bc": 1271,
+        "bcm": 2732,
+        "mbc": 2275,
+        "sc": 8582,
+        "sca": 23009,
+        "st": 30910
+      }
+    },
+    {
+      "key": "2023-1-EM",
+      "occurrences": 2,
+      "values": {
+        "oc": 432,
+        "bc": 583,
+        "bcm": 1310,
+        "mbc": 1377,
+        "sc": 5569,
+        "sca": 7212,
+        "st": 24413
+      }
+    },
+    {
+      "key": "2023-1-GI",
+      "occurrences": 2,
+      "values": {
+        "oc": 5965,
+        "bc": 8966,
+        "bcm": 8771,
+        "mbc": 9983,
+        "sc": 19048,
+        "sca": 50451,
+        "st": 57993
+      }
+    },
+    {
+      "key": "2023-1-IE",
+      "occurrences": 2,
+      "values": {
+        "oc": 8513,
+        "bc": 13048,
+        "bcm": 12042,
+        "mbc": 19299,
+        "sc": 33284,
+        "sca": 73337,
+        "st": null
+      }
+    },
+    {
+      "key": "2023-1-IM",
+      "occurrences": 2,
+      "values": {
+        "oc": 505,
+        "bc": 678,
+        "bcm": 1017,
+        "mbc": 1011,
+        "sc": 5387,
+        "sca": 24024,
+        "st": 15638
+      }
+    },
+    {
+      "key": "2023-1-MA",
+      "occurrences": 2,
+      "values": {
+        "oc": 9851,
+        "bc": 16212,
+        "bcm": 13680,
+        "mbc": 23328,
+        "sc": 30547,
+        "sca": 27969,
+        "st": null
+      }
+    },
+    {
+      "key": "2023-1-ME",
+      "occurrences": 2,
+      "values": {
+        "oc": 2279,
+        "bc": 3885,
+        "bcm": 6054,
+        "mbc": 5386,
+        "sc": 15385,
+        "sca": 35544,
+        "st": null
+      }
+    },
+    {
+      "key": "2023-1-MI",
+      "occurrences": 2,
+      "values": {
+        "oc": 10258,
+        "bc": 16834,
+        "bcm": 26855,
+        "mbc": 25388,
+        "sc": 31995,
+        "sca": 44098,
+        "st": null
+      }
+    },
+    {
+      "key": "2023-1-MN",
+      "occurrences": 2,
+      "values": {
+        "oc": 11859,
+        "bc": 19987,
+        "bcm": 16413,
+        "mbc": 18831,
+        "sc": 40702,
+        "sca": 99127,
+        "st": 101973
+      }
+    },
+    {
+      "key": "2023-1-PT",
+      "occurrences": 2,
+      "values": {
+        "oc": 16436,
+        "bc": 31958,
+        "bcm": 27787,
+        "mbc": 30484,
+        "sc": 45771,
+        "sca": 110885,
+        "st": null
+      }
+    },
+    {
+      "key": "2023-1-XC",
+      "occurrences": 2,
+      "values": {
+        "oc": 17936,
+        "bc": 26694,
+        "bcm": 47395,
+        "mbc": 39836,
+        "sc": 38859,
+        "sca": 54069,
+        "st": null
+      }
+    },
+    {
+      "key": "2023-1-XM",
+      "occurrences": 2,
+      "values": {
+        "oc": 18326,
+        "bc": 24333,
+        "bcm": 24693,
+        "mbc": 35639,
+        "sc": 38724,
+        "sca": null,
+        "st": 102865
+      }
+    },
+    {
+      "key": "2023-2-AP",
+      "occurrences": 2,
+      "values": {
+        "oc": 38543,
+        "bc": 56911,
+        "bcm": 49829,
+        "mbc": 65843,
+        "sc": 87357,
+        "sca": 139577,
+        "st": 116255
+      }
+    },
+    {
+      "key": "2023-2-CH",
+      "occurrences": 2,
+      "values": {
+        "oc": 4625,
+        "bc": 7698,
+        "bcm": 10471,
+        "mbc": 13117,
+        "sc": 22567,
+        "sca": 30709,
+        "st": null
+      }
+    },
+    {
+      "key": "2023-2-CL",
+      "occurrences": 2,
+      "values": {
+        "oc": 8098,
+        "bc": 12175,
+        "bcm": 11946,
+        "mbc": 15423,
+        "sc": 42115,
+        "sca": 67708,
+        "st": 89266
+      }
+    },
+    {
+      "key": "2023-2-CR",
+      "occurrences": 2,
+      "values": {
+        "oc": 32253,
+        "bc": 54850,
+        "bcm": 64886,
+        "mbc": 58589,
+        "sc": 76665,
+        "sca": 91536,
+        "st": null
+      }
+    },
+    {
+      "key": "2023-2-FS",
+      "occurrences": 2,
+      "values": {
+        "oc": 8559,
+        "bc": 21464,
+        "bcm": 20563,
+        "mbc": 25385,
+        "sc": 36419,
+        "sca": 23408,
+        "st": null
+      }
+    },
+    {
+      "key": "2023-2-IB",
+      "occurrences": 2,
+      "values": {
+        "oc": 7130,
+        "bc": 10427,
+        "bcm": 11786,
+        "mbc": 16928,
+        "sc": 12653,
+        "sca": 64772,
+        "st": null
+      }
+    },
+    {
+      "key": "2023-2-IS",
+      "occurrences": 2,
+      "values": {
+        "oc": 11626,
+        "bc": 13127,
+        "bcm": 15765,
+        "mbc": 22091,
+        "sc": 18864,
+        "sca": null,
+        "st": 81657
+      }
+    },
+    {
+      "key": "2023-2-LE",
+      "occurrences": 2,
+      "values": {
+        "oc": 35641,
+        "bc": 56330,
+        "bcm": 47683,
+        "mbc": 62298,
+        "sc": 82996,
+        "sca": 87116,
+        "st": 74955
+      }
+    },
+    {
+      "key": "2023-2-PM",
+      "occurrences": 2,
+      "values": {
+        "oc": 17142,
+        "bc": 30977,
+        "bcm": 38256,
+        "mbc": 34359,
+        "sc": 37066,
+        "sca": 123721,
+        "st": null
+      }
+    },
+    {
+      "key": "2023-2-PP",
+      "occurrences": 2,
+      "values": {
+        "oc": 23013,
+        "bc": 34981,
+        "bcm": 27406,
+        "mbc": 43869,
+        "sc": 68091,
+        "sca": 96099,
+        "st": null
+      }
+    },
+    {
+      "key": "2023-2-TX",
+      "occurrences": 2,
+      "values": {
+        "oc": 33357,
+        "bc": 49139,
+        "bcm": 63326,
+        "mbc": 45115,
+        "sc": 86917,
+        "sca": 82627,
+        "st": null
+      }
+    },
+    {
+      "key": "2023-3-BP",
+      "occurrences": 2,
+      "values": {
+        "oc": 15166,
+        "bc": 21599,
+        "bcm": 23934,
+        "mbc": 36625,
+        "sc": 43083,
+        "sca": null,
+        "st": 54450
+      }
+    },
+    {
+      "key": "2023-2614-PE",
+      "occurrences": 2,
+      "values": {
+        "oc": null,
+        "bc": null,
+        "bcm": null,
+        "mbc": null,
+        "sc": null,
+        "sca": null,
+        "st": null
+      }
+    },
+    {
+      "key": "2023-4-AE",
+      "occurrences": 2,
+      "values": {
+        "oc": 2671,
+        "bc": 4543,
+        "bcm": 5589,
+        "mbc": 6018,
+        "sc": 12992,
+        "sca": 50525,
+        "st": null
+      }
+    },
+    {
+      "key": "2023-4-AT",
+      "occurrences": 2,
+      "values": {
+        "oc": 856,
+        "bc": 1349,
+        "bcm": 2042,
+        "mbc": 1489,
+        "sc": 8991,
+        "sca": 10552,
+        "st": 24251
+      }
+    },
+    {
+      "key": "2023-4-AU",
+      "occurrences": 2,
+      "values": {
+        "oc": 7537,
+        "bc": 17995,
+        "bcm": 9430,
+        "mbc": 15083,
+        "sc": 29910,
+        "sca": 43825,
+        "st": 98725
+      }
+    },
+    {
+      "key": "2023-4-CM",
+      "occurrences": 2,
+      "values": {
+        "oc": 691,
+        "bc": 814,
+        "bcm": 1357,
+        "mbc": 1430,
+        "sc": 7496,
+        "sca": null,
+        "st": 25004
+      }
+    },
+    {
+      "key": "2023-4-CS",
+      "occurrences": 2,
+      "values": {
+        "oc": 445,
+        "bc": 642,
+        "bcm": 1016,
+        "mbc": 1080,
+        "sc": 3940,
+        "sca": 9701,
+        "st": 19404
+      }
+    },
+    {
+      "key": "2023-4-EC",
+      "occurrences": 2,
+      "values": {
+        "oc": 787,
+        "bc": 1140,
+        "bcm": 1396,
+        "mbc": 1660,
+        "sc": 6713,
+        "sca": 20582,
+        "st": 34884
+      }
+    },
+    {
+      "key": "2023-4-EI",
+      "occurrences": 2,
+      "values": {
+        "oc": 2420,
+        "bc": 3667,
+        "bcm": 4936,
+        "mbc": 4100,
+        "sc": 17836,
+        "sca": 26864,
+        "st": null
+      }
+    },
+    {
+      "key": "2023-4-EM",
+      "occurrences": 2,
+      "values": {
+        "oc": 1444,
+        "bc": 1622,
+        "bcm": 2356,
+        "mbc": 2027,
+        "sc": 9126,
+        "sca": 25133,
+        "st": null
+      }
+    },
+    {
+      "key": "2023-4-IM",
+      "occurrences": 2,
+      "values": {
+        "oc": 1114,
+        "bc": 1452,
+        "bcm": 2034,
+        "mbc": 1913,
+        "sc": 8545,
+        "sca": 19014,
+        "st": null
+      }
+    },
+    {
+      "key": "2023-4-PR",
+      "occurrences": 2,
+      "values": {
+        "oc": 12300,
+        "bc": 18709,
+        "bcm": 21715,
+        "mbc": 22459,
+        "sc": 37006,
+        "sca": 71834,
+        "st": null
+      }
+    },
+    {
+      "key": "2023-4-RA",
+      "occurrences": 2,
+      "values": {
+        "oc": 2288,
+        "bc": 3664,
+        "bcm": 3695,
+        "mbc": 4201,
+        "sc": 11036,
+        "sca": 42315,
+        "st": 95903
+      }
+    },
+    {
+      "key": "2023-4-RP",
+      "occurrences": 2,
+      "values": {
+        "oc": 21719,
+        "bc": 28459,
+        "bcm": 36437,
+        "mbc": 41092,
+        "sc": 64070,
+        "sca": 90360,
+        "st": null
+      }
+    },
+    {
+      "key": "2023-1516-CE",
+      "occurrences": 2,
+      "values": {
+        "oc": 71516,
+        "bc": 126189,
+        "bcm": 117606,
+        "mbc": 99337,
+        "sc": 139863,
+        "sca": null,
+        "st": null
+      }
+    },
+    {
+      "key": "2023-1516-CS",
+      "occurrences": 2,
+      "values": {
+        "oc": 14656,
+        "bc": 31027,
+        "bcm": 25024,
+        "mbc": 24194,
+        "sc": 65678,
+        "sca": 31009,
+        "st": null
+      }
+    },
+    {
+      "key": "2023-1516-EC",
+      "occurrences": 2,
+      "values": {
+        "oc": 27961,
+        "bc": 45087,
+        "bcm": 43288,
+        "mbc": 46093,
+        "sc": 95963,
+        "sca": 140593,
+        "st": 137506
+      }
+    },
+    {
+      "key": "2023-1516-EE",
+      "occurrences": 2,
+      "values": {
+        "oc": 46134,
+        "bc": 64285,
+        "bcm": 84729,
+        "mbc": 65630,
+        "sc": 94314,
+        "sca": 127238,
+        "st": null
+      }
+    },
+    {
+      "key": "2023-1516-ME",
+      "occurrences": 2,
+      "values": {
+        "oc": 73322,
+        "bc": 125541,
+        "bcm": 125256,
+        "mbc": 103764,
+        "sc": 129183,
+        "sca": 164412,
+        "st": null
+      }
+    },
+    {
+      "key": "2023-2005-CE",
+      "occurrences": 2,
+      "values": {
+        "oc": 20161,
+        "bc": 31512,
+        "bcm": 42170,
+        "mbc": 42839,
+        "sc": 53365,
+        "sca": 86694,
+        "st": 107335
+      }
+    },
+    {
+      "key": "2023-2005-CS",
+      "occurrences": 2,
+      "values": {
+        "oc": 1717,
+        "bc": 2463,
+        "bcm": 3493,
+        "mbc": 2875,
+        "sc": 13900,
+        "sca": 11325,
+        "st": 35106
+      }
+    },
+    {
+      "key": "2023-2005-EC",
+      "occurrences": 2,
+      "values": {
+        "oc": 2540,
+        "bc": 3374,
+        "bcm": 5748,
+        "mbc": 4538,
+        "sc": 19263,
+        "sca": 26376,
+        "st": null
+      }
+    },
+    {
+      "key": "2023-2005-EE",
+      "occurrences": 2,
+      "values": {
+        "oc": 4781,
+        "bc": 6767,
+        "bcm": 9750,
+        "mbc": 10672,
+        "sc": 23087,
+        "sca": 13096,
+        "st": 59952
+      }
+    },
+    {
+      "key": "2023-2005-EI",
+      "occurrences": 2,
+      "values": {
+        "oc": 8174,
+        "bc": 10591,
+        "bcm": 9435,
+        "mbc": 11346,
+        "sc": 32404,
+        "sca": 43130,
+        "st": 70288
+      }
+    },
+    {
+      "key": "2023-2005-IB",
+      "occurrences": 2,
+      "values": {
+        "oc": 19593,
+        "bc": 32354,
+        "bcm": 33561,
+        "mbc": 43571,
+        "sc": 79309,
+        "sca": 98412,
+        "st": null
+      }
+    },
+    {
+      "key": "2023-2005-IT",
+      "occurrences": 2,
+      "values": {
+        "oc": 2491,
+        "bc": 3310,
+        "bcm": 5024,
+        "mbc": 4245,
+        "sc": 14825,
+        "sca": 23402,
+        "st": null
+      }
+    },
+    {
+      "key": "2023-2005-ME",
+      "occurrences": 2,
+      "values": {
+        "oc": 16374,
+        "bc": 27136,
+        "bcm": 22429,
+        "mbc": 28275,
+        "sc": 57876,
+        "sca": 67759,
+        "st": 88146
+      }
+    },
+    {
+      "key": "2023-2005-PR",
+      "occurrences": 2,
+      "values": {
+        "oc": 21699,
+        "bc": 27466,
+        "bcm": 36090,
+        "mbc": 41511,
+        "sc": 55770,
+        "sca": 64861,
+        "st": 99221
+      }
+    },
+    {
+      "key": "2023-2369-CE",
+      "occurrences": 2,
+      "values": {
+        "oc": 89684,
+        "bc": 155604,
+        "bcm": 127413,
+        "mbc": 114260,
+        "sc": 165318,
+        "sca": 102466,
+        "st": null
+      }
+    },
+    {
+      "key": "2023-2369-CS",
+      "occurrences": 2,
+      "values": {
+        "oc": 25988,
+        "bc": 39336,
+        "bcm": 44539,
+        "mbc": 29947,
+        "sc": 68973,
+        "sca": 118051,
+        "st": 37856
+      }
+    },
+    {
+      "key": "2023-2614-TC",
+      "occurrences": 2,
+      "values": {
+        "oc": 150524,
+        "bc": null,
+        "bcm": null,
+        "mbc": null,
+        "sc": null,
+        "sca": null,
+        "st": null
+      }
+    },
+    {
+      "key": "2023-2369-EC",
+      "occurrences": 2,
+      "values": {
+        "oc": 34301,
+        "bc": 45310,
+        "bcm": 62865,
+        "mbc": 43338,
+        "sc": 100181,
+        "sca": 90750,
+        "st": null
+      }
+    },
+    {
+      "key": "2023-2369-EE",
+      "occurrences": 2,
+      "values": {
+        "oc": 50644,
+        "bc": 85527,
+        "bcm": 83261,
+        "mbc": 69039,
+        "sc": 123440,
+        "sca": 159814,
+        "st": null
+      }
+    },
+    {
+      "key": "2023-2369-ME",
+      "occurrences": 2,
+      "values": {
+        "oc": 84399,
+        "bc": 127082,
+        "bcm": 121720,
+        "mbc": 114157,
+        "sc": 144025,
+        "sca": 172569,
+        "st": null
+      }
+    },
+    {
+      "key": "2023-2603-CS",
+      "occurrences": 2,
+      "values": {
+        "oc": 13855,
+        "bc": 22706,
+        "bcm": 21230,
+        "mbc": 16908,
+        "sc": 47044,
+        "sca": 33690,
+        "st": 82577
+      }
+    },
+    {
+      "key": "2023-2603-EC",
+      "occurrences": 2,
+      "values": {
+        "oc": 20847,
+        "bc": 33436,
+        "bcm": 27604,
+        "mbc": 26045,
+        "sc": 69778,
+        "sca": 68387,
+        "st": null
+      }
+    },
+    {
+      "key": "2023-2603-EE",
+      "occurrences": 2,
+      "values": {
+        "oc": 33453,
+        "bc": 43675,
+        "bcm": 44155,
+        "mbc": 52916,
+        "sc": 86891,
+        "sca": 143996,
+        "st": null
+      }
+    },
+    {
+      "key": "2023-2603-ME",
+      "occurrences": 2,
+      "values": {
+        "oc": 59348,
+        "bc": 87793,
+        "bcm": 72468,
+        "mbc": 88522,
+        "sc": 108546,
+        "sca": 118874,
+        "st": 175932
+      }
+    },
+    {
+      "key": "2023-2615-CE",
+      "occurrences": 2,
+      "values": {
+        "oc": 38349,
+        "bc": 62972,
+        "bcm": 59129,
+        "mbc": 58081,
+        "sc": 78836,
+        "sca": 92643,
+        "st": 56836
+      }
+    },
+    {
+      "key": "2023-2615-CS",
+      "occurrences": 2,
+      "values": {
+        "oc": 4328,
+        "bc": 7475,
+        "bcm": 5903,
+        "mbc": 6217,
+        "sc": 24977,
+        "sca": 27354,
+        "st": null
+      }
+    },
+    {
+      "key": "2023-2615-EC",
+      "occurrences": 2,
+      "values": {
+        "oc": 6548,
+        "bc": 9015,
+        "bcm": 13478,
+        "mbc": 10189,
+        "sc": 26590,
+        "sca": 45201,
+        "st": 12455
+      }
+    },
+    {
+      "key": "2023-2615-EE",
+      "occurrences": 2,
+      "values": {
+        "oc": 10966,
+        "bc": 15221,
+        "bcm": 36868,
+        "mbc": 18163,
+        "sc": 36539,
+        "sca": 75089,
+        "st": 38949
+      }
+    },
+    {
+      "key": "2023-2615-ME",
+      "occurrences": 2,
+      "values": {
+        "oc": 29828,
+        "bc": 46994,
+        "bcm": 81178,
+        "mbc": 58396,
+        "sc": 91056,
+        "sca": 94070,
+        "st": 80876
+      }
+    },
+    {
+      "key": "2023-2615-MT",
+      "occurrences": 2,
+      "values": {
+        "oc": 35175,
+        "bc": 55742,
+        "bcm": 41225,
+        "mbc": 52267,
+        "sc": 108118,
+        "sca": 101570,
+        "st": 141872
+      }
+    },
+    {
+      "key": "2023-2709-AU",
+      "occurrences": 2,
+      "values": {
+        "oc": 78729,
+        "bc": 103261,
+        "bcm": 108283,
+        "mbc": 106659,
+        "sc": 162657,
+        "sca": 139675,
+        "st": null
+      }
+    },
+    {
+      "key": "2023-2709-CE",
+      "occurrences": 2,
+      "values": {
+        "oc": 62848,
+        "bc": 78864,
+        "bcm": 67351,
+        "mbc": 79574,
+        "sc": 102095,
+        "sca": 93506,
+        "st": null
+      }
+    },
+    {
+      "key": "2023-2709-CS",
+      "occurrences": 2,
+      "values": {
+        "oc": 9668,
+        "bc": 19085,
+        "bcm": 17030,
+        "mbc": 17635,
+        "sc": 43953,
+        "sca": 46502,
+        "st": null
+      }
+    },
+    {
+      "key": "2023-2709-EC",
+      "occurrences": 2,
+      "values": {
+        "oc": 19773,
+        "bc": 27947,
+        "bcm": 20096,
+        "mbc": 26437,
+        "sc": 64157,
+        "sca": null,
+        "st": 94614
+      }
+    },
+    {
+      "key": "2023-2709-EE",
+      "occurrences": 2,
+      "values": {
+        "oc": 24683,
+        "bc": 37268,
+        "bcm": 28307,
+        "mbc": 39435,
+        "sc": 75564,
+        "sca": 47390,
+        "st": 60486
+      }
+    },
+    {
+      "key": "2023-2709-IT",
+      "occurrences": 2,
+      "values": {
+        "oc": 10745,
+        "bc": 20118,
+        "bcm": 22109,
+        "mbc": 18628,
+        "sc": 41422,
+        "sca": 34241,
+        "st": 55577
+      }
+    },
+    {
+      "key": "2023-2709-ME",
+      "occurrences": 2,
+      "values": {
+        "oc": 49463,
+        "bc": 66315,
+        "bcm": 88842,
+        "mbc": 75449,
+        "sc": 108639,
+        "sca": 96204,
+        "st": null
+      }
+    },
+    {
+      "key": "2023-3464-CE",
+      "occurrences": 2,
+      "values": {
+        "oc": 103425,
+        "bc": 175145,
+        "bcm": 125106,
+        "mbc": 150268,
+        "sc": 148160,
+        "sca": 135525,
+        "st": null
+      }
+    },
+    {
+      "key": "2023-3464-CS",
+      "occurrences": 2,
+      "values": {
+        "oc": 25060,
+        "bc": 32595,
+        "bcm": 32444,
+        "mbc": 45170,
+        "sc": 63843,
+        "sca": 89846,
+        "st": null
+      }
+    },
+    {
+      "key": "2023-3464-EC",
+      "occurrences": 2,
+      "values": {
+        "oc": 36435,
+        "bc": 54109,
+        "bcm": 72985,
+        "mbc": 59203,
+        "sc": 84233,
+        "sca": 102849,
+        "st": 117538
+      }
+    },
+    {
+      "key": "2023-3464-EE",
+      "occurrences": 2,
+      "values": {
+        "oc": 69768,
+        "bc": 93239,
+        "bcm": 92368,
+        "mbc": 91459,
+        "sc": 129407,
+        "sca": 120255,
+        "st": 143504
+      }
+    },
+    {
+      "key": "2023-3464-ME",
+      "occurrences": 2,
+      "values": {
+        "oc": 100311,
+        "bc": 137551,
+        "bcm": 114706,
+        "mbc": 138435,
+        "sc": 149181,
+        "sca": null,
+        "st": null
+      }
+    },
+    {
+      "key": "2023-3465-CE",
+      "occurrences": 2,
+      "values": {
+        "oc": 90994,
+        "bc": 138955,
+        "bcm": 110413,
+        "mbc": 143094,
+        "sc": 165815,
+        "sca": 112581,
+        "st": 117795
+      }
+    },
+    {
+      "key": "2023-3465-CS",
+      "occurrences": 2,
+      "values": {
+        "oc": 14746,
+        "bc": 31744,
+        "bcm": 18536,
+        "mbc": 26628,
+        "sc": 43870,
+        "sca": 136946,
+        "st": 56334
+      }
+    },
+    {
+      "key": "2023-3465-EC",
+      "occurrences": 2,
+      "values": {
+        "oc": 24399,
+        "bc": 43279,
+        "bcm": 63799,
+        "mbc": 48967,
+        "sc": 73224,
+        "sca": 154370,
+        "st": null
+      }
+    },
+    {
+      "key": "2023-3465-EE",
+      "occurrences": 2,
+      "values": {
+        "oc": 49264,
+        "bc": 75520,
+        "bcm": 56013,
+        "mbc": 70505,
+        "sc": 112264,
+        "sca": 146275,
+        "st": null
+      }
+    },
+    {
+      "key": "2023-3465-ME",
+      "occurrences": 2,
+      "values": {
+        "oc": 66573,
+        "bc": 94297,
+        "bcm": 94487,
+        "mbc": 115615,
+        "sc": 143735,
+        "sca": 162963,
+        "st": 100404
+      }
+    },
+    {
+      "key": "2023-4974-CE",
+      "occurrences": 2,
+      "values": {
+        "oc": 37984,
+        "bc": 56329,
+        "bcm": 45783,
+        "mbc": 66332,
+        "sc": 90614,
+        "sca": 114393,
+        "st": null
+      }
+    },
+    {
+      "key": "2023-4974-CS",
+      "occurrences": 2,
+      "values": {
+        "oc": 5053,
+        "bc": 9808,
+        "bcm": 7642,
+        "mbc": 12410,
+        "sc": 27106,
+        "sca": 85914,
+        "st": 157023
+      }
+    },
+    {
+      "key": "2023-4974-EC",
+      "occurrences": 2,
+      "values": {
+        "oc": 12135,
+        "bc": 19252,
+        "bcm": 16555,
+        "mbc": 23862,
+        "sc": 50350,
+        "sca": 110204,
+        "st": 129864
+      }
+    },
+    {
+      "key": "2023-4974-EE",
+      "occurrences": 2,
+      "values": {
+        "oc": 21043,
+        "bc": 32206,
+        "bcm": 26826,
+        "mbc": 34086,
+        "sc": 58566,
+        "sca": null,
+        "st": 160825
+      }
+    },
+    {
+      "key": "2023-4974-ME",
+      "occurrences": 2,
+      "values": {
+        "oc": 46901,
+        "bc": 76653,
+        "bcm": 62480,
+        "mbc": 89478,
+        "sc": 97894,
+        "sca": 134145,
+        "st": 158332
+      }
+    },
+    {
+      "key": "2023-5009-CE",
+      "occurrences": 2,
+      "values": {
+        "oc": 84011,
+        "bc": 151588,
+        "bcm": 98374,
+        "mbc": 150588,
+        "sc": 170623,
+        "sca": 147589,
+        "st": null
+      }
+    },
+    {
+      "key": "2023-5009-CS",
+      "occurrences": 2,
+      "values": {
+        "oc": 26506,
+        "bc": 44163,
+        "bcm": 39651,
+        "mbc": 46147,
+        "sc": 69083,
+        "sca": 134456,
+        "st": null
+      }
+    },
+    {
+      "key": "2023-5009-EC",
+      "occurrences": 2,
+      "values": {
+        "oc": 41547,
+        "bc": 58861,
+        "bcm": 62145,
+        "mbc": 61495,
+        "sc": 84017,
+        "sca": 143254,
+        "st": null
+      }
+    },
+    {
+      "key": "2023-5009-EE",
+      "occurrences": 2,
+      "values": {
+        "oc": 58350,
+        "bc": 94639,
+        "bcm": 78564,
+        "mbc": 104381,
+        "sc": 113868,
+        "sca": 139676,
+        "st": null
+      }
+    },
+    {
+      "key": "2023-5009-ME",
+      "occurrences": 2,
+      "values": {
+        "oc": 98492,
+        "bc": 149752,
+        "bcm": 119920,
+        "mbc": 145573,
+        "sc": 167667,
+        "sca": 114814,
+        "st": null
+      }
+    },
+    {
+      "key": "2023-5901-CE",
+      "occurrences": 2,
+      "values": {
+        "oc": 24001,
+        "bc": 35831,
+        "bcm": 32945,
+        "mbc": 54996,
+        "sc": 66988,
+        "sca": 89400,
+        "st": 78164
+      }
+    }
+  ],
+  "nullOnlySamples": [
+    {
+      "year": 2023,
+      "collegeCode": "2614",
+      "branchCode": "PE"
+    },
+    {
+      "year": 2023,
+      "collegeCode": "3016",
+      "branchCode": "XM"
+    },
+    {
+      "year": 2023,
+      "collegeCode": "5017",
+      "branchCode": "XM"
+    },
+    {
+      "year": 2023,
+      "collegeCode": "5022",
+      "branchCode": "XM"
+    },
+    {
+      "year": 2023,
+      "collegeCode": "1107",
+      "branchCode": "EE"
+    },
+    {
+      "year": 2023,
+      "collegeCode": "1107",
+      "branchCode": "ME"
+    },
+    {
+      "year": 2023,
+      "collegeCode": "1121",
+      "branchCode": "ME"
+    },
+    {
+      "year": 2023,
+      "collegeCode": "1121",
+      "branchCode": "EE"
+    },
+    {
+      "year": 2023,
+      "collegeCode": "1124",
+      "branchCode": "AD"
+    },
+    {
+      "year": 2023,
+      "collegeCode": "1124",
+      "branchCode": "AE"
+    },
+    {
+      "year": 2023,
+      "collegeCode": "1124",
+      "branchCode": "AM"
+    },
+    {
+      "year": 2023,
+      "collegeCode": "1124",
+      "branchCode": "CO"
+    },
+    {
+      "year": 2023,
+      "collegeCode": "1124",
+      "branchCode": "MR"
+    },
+    {
+      "year": 2023,
+      "collegeCode": "1125",
+      "branchCode": "AE"
+    },
+    {
+      "year": 2023,
+      "collegeCode": "1125",
+      "branchCode": "CE"
+    },
+    {
+      "year": 2023,
+      "collegeCode": "1125",
+      "branchCode": "EC"
+    },
+    {
+      "year": 2023,
+      "collegeCode": "1125",
+      "branchCode": "EE"
+    },
+    {
+      "year": 2023,
+      "collegeCode": "1125",
+      "branchCode": "ME"
+    },
+    {
+      "year": 2023,
+      "collegeCode": "1127",
+      "branchCode": "CE"
+    },
+    {
+      "year": 2023,
+      "collegeCode": "1133",
+      "branchCode": "CE"
+    },
+    {
+      "year": 2023,
+      "collegeCode": "1150",
+      "branchCode": "AG"
+    },
+    {
+      "year": 2023,
+      "collegeCode": "1150",
+      "branchCode": "ME"
+    },
+    {
+      "year": 2023,
+      "collegeCode": "1209",
+      "branchCode": "CE"
+    },
+    {
+      "year": 2023,
+      "collegeCode": "1209",
+      "branchCode": "EC"
+    },
+    {
+      "year": 2023,
+      "collegeCode": "1209",
+      "branchCode": "EE"
+    },
+    {
+      "year": 2023,
+      "collegeCode": "1212",
+      "branchCode": "AU"
+    },
+    {
+      "year": 2023,
+      "collegeCode": "1213",
+      "branchCode": "EE"
+    },
+    {
+      "year": 2023,
+      "collegeCode": "1217",
+      "branchCode": "AU"
+    },
+    {
+      "year": 2023,
+      "collegeCode": "1217",
+      "branchCode": "CE"
+    },
+    {
+      "year": 2023,
+      "collegeCode": "1217",
+      "branchCode": "MU"
+    },
+    {
+      "year": 2023,
+      "collegeCode": "1218",
+      "branchCode": "EE"
+    },
+    {
+      "year": 2023,
+      "collegeCode": "1221",
+      "branchCode": "MD"
+    },
+    {
+      "year": 2023,
+      "collegeCode": "1222",
+      "branchCode": "CE"
+    },
+    {
+      "year": 2023,
+      "collegeCode": "1228",
+      "branchCode": "ME"
+    },
+    {
+      "year": 2023,
+      "collegeCode": "1229",
+      "branchCode": "CE"
+    },
+    {
+      "year": 2023,
+      "collegeCode": "1229",
+      "branchCode": "EE"
+    },
+    {
+      "year": 2023,
+      "collegeCode": "1229",
+      "branchCode": "ME"
+    },
+    {
+      "year": 2023,
+      "collegeCode": "1230",
+      "branchCode": "ME"
+    },
+    {
+      "year": 2023,
+      "collegeCode": "1232",
+      "branchCode": "CE"
+    },
+    {
+      "year": 2023,
+      "collegeCode": "1232",
+      "branchCode": "ME"
+    },
+    {
+      "year": 2023,
+      "collegeCode": "1232",
+      "branchCode": "SC"
+    },
+    {
+      "year": 2023,
+      "collegeCode": "1235",
+      "branchCode": "CE"
+    },
+    {
+      "year": 2023,
+      "collegeCode": "1235",
+      "branchCode": "CS"
+    },
+    {
+      "year": 2023,
+      "collegeCode": "1235",
+      "branchCode": "EC"
+    },
+    {
+      "year": 2023,
+      "collegeCode": "1235",
+      "branchCode": "EE"
+    },
+    {
+      "year": 2023,
+      "collegeCode": "1235",
+      "branchCode": "IT"
+    },
+    {
+      "year": 2023,
+      "collegeCode": "1235",
+      "branchCode": "ME"
+    },
+    {
+      "year": 2023,
+      "collegeCode": "1243",
+      "branchCode": "CE"
+    },
+    {
+      "year": 2023,
+      "collegeCode": "1243",
+      "branchCode": "EC"
+    },
+    {
+      "year": 2023,
+      "collegeCode": "1243",
+      "branchCode": "EE"
+    },
+    {
+      "year": 2023,
+      "collegeCode": "1243",
+      "branchCode": "ME"
+    },
+    {
+      "year": 2023,
+      "collegeCode": "1310",
+      "branchCode": "CE"
+    },
+    {
+      "year": 2023,
+      "collegeCode": "1313",
+      "branchCode": "EE"
+    },
+    {
+      "year": 2023,
+      "collegeCode": "1318",
+      "branchCode": "CE"
+    },
+    {
+      "year": 2023,
+      "collegeCode": "1318",
+      "branchCode": "EC"
+    },
+    {
+      "year": 2023,
+      "collegeCode": "1318",
+      "branchCode": "EE"
+    },
+    {
+      "year": 2023,
+      "collegeCode": "1318",
+      "branchCode": "ME"
+    },
+    {
+      "year": 2023,
+      "collegeCode": "1319",
+      "branchCode": "CE"
+    },
+    {
+      "year": 2023,
+      "collegeCode": "1319",
+      "branchCode": "EI"
+    },
+    {
+      "year": 2023,
+      "collegeCode": "1319",
+      "branchCode": "ME"
+    },
+    {
+      "year": 2023,
+      "collegeCode": "1334",
+      "branchCode": "CE"
+    },
+    {
+      "year": 2023,
+      "collegeCode": "1334",
+      "branchCode": "CS"
+    },
+    {
+      "year": 2023,
+      "collegeCode": "1334",
+      "branchCode": "EC"
+    },
+    {
+      "year": 2023,
+      "collegeCode": "1334",
+      "branchCode": "ME"
+    },
+    {
+      "year": 2023,
+      "collegeCode": "1335",
+      "branchCode": "CE"
+    },
+    {
+      "year": 2023,
+      "collegeCode": "1335",
+      "branchCode": "EC"
+    },
+    {
+      "year": 2023,
+      "collegeCode": "1335",
+      "branchCode": "EE"
+    },
+    {
+      "year": 2023,
+      "collegeCode": "1335",
+      "branchCode": "ME"
+    },
+    {
+      "year": 2023,
+      "collegeCode": "1407",
+      "branchCode": "AU"
+    },
+    {
+      "year": 2023,
+      "collegeCode": "1407",
+      "branchCode": "CE"
+    },
+    {
+      "year": 2023,
+      "collegeCode": "1407",
+      "branchCode": "MR"
+    },
+    {
+      "year": 2023,
+      "collegeCode": "1415",
+      "branchCode": "EC"
+    },
+    {
+      "year": 2023,
+      "collegeCode": "1415",
+      "branchCode": "ME"
+    },
+    {
+      "year": 2023,
+      "collegeCode": "1423",
+      "branchCode": "RM"
+    },
+    {
+      "year": 2023,
+      "collegeCode": "1426",
+      "branchCode": "EE"
+    },
+    {
+      "year": 2023,
+      "collegeCode": "1427",
+      "branchCode": "EC"
+    },
+    {
+      "year": 2023,
+      "collegeCode": "1427",
+      "branchCode": "EE"
+    },
+    {
+      "year": 2023,
+      "collegeCode": "1427",
+      "branchCode": "FT"
+    },
+    {
+      "year": 2023,
+      "collegeCode": "1431",
+      "branchCode": "CE"
+    },
+    {
+      "year": 2023,
+      "collegeCode": "1434",
+      "branchCode": "AU"
+    },
+    {
+      "year": 2023,
+      "collegeCode": "1436",
+      "branchCode": "CE"
+    },
+    {
+      "year": 2023,
+      "collegeCode": "1436",
+      "branchCode": "EE"
+    },
+    {
+      "year": 2023,
+      "collegeCode": "1436",
+      "branchCode": "ME"
+    },
+    {
+      "year": 2023,
+      "collegeCode": "1437",
+      "branchCode": "AU"
+    },
+    {
+      "year": 2023,
+      "collegeCode": "1438",
+      "branchCode": "CE"
+    },
+    {
+      "year": 2023,
+      "collegeCode": "1438",
+      "branchCode": "EE"
+    },
+    {
+      "year": 2023,
+      "collegeCode": "1438",
+      "branchCode": "ME"
+    },
+    {
+      "year": 2023,
+      "collegeCode": "1444",
+      "branchCode": "CE"
+    },
+    {
+      "year": 2023,
+      "collegeCode": "1444",
+      "branchCode": "CS"
+    },
+    {
+      "year": 2023,
+      "collegeCode": "1444",
+      "branchCode": "EC"
+    },
+    {
+      "year": 2023,
+      "collegeCode": "1444",
+      "branchCode": "ME"
+    },
+    {
+      "year": 2023,
+      "collegeCode": "1445",
+      "branchCode": "EE"
+    },
+    {
+      "year": 2023,
+      "collegeCode": "1452",
+      "branchCode": "AG"
+    },
+    {
+      "year": 2023,
+      "collegeCode": "1503",
+      "branchCode": "BT"
+    },
+    {
+      "year": 2023,
+      "collegeCode": "1503",
+      "branchCode": "CH"
+    },
+    {
+      "year": 2023,
+      "collegeCode": "1503",
+      "branchCode": "CS"
+    },
+    {
+      "year": 2023,
+      "collegeCode": "1503",
+      "branchCode": "EE"
+    },
+    {
+      "year": 2023,
+      "collegeCode": "1503",
+      "branchCode": "ME"
+    },
+    {
+      "year": 2023,
+      "collegeCode": "1511",
+      "branchCode": "CE"
+    },
+    {
+      "year": 2023,
+      "collegeCode": "1511",
+      "branchCode": "CS"
+    }
+  ]
+}

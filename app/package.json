@@ -3,10 +3,23 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "data:import:tnea-2026": "node --env-file=.env.local scripts/import-tnea-2026.mjs",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "typecheck": "tsc --noEmit",
+    "check": "npm run lint && npm run typecheck",
+    "verify": "npm run check && npm run build",
+    "import:placements:nirf": "node --env-file=.env.local scripts/import-nirf-placements.mjs",
+    "audit:college-websites": "node --env-file=.env.local scripts/audit-college-placement-websites.mjs",
+    "import:placements:official-sites": "node scripts/import-official-site-nirf-placements.mjs",
+    "import:placements:official-claims": "node scripts/import-official-placement-claims.mjs",
+    "audit:college-evidence": "node --env-file=.env.local scripts/audit-college-evidence-coverage.mjs",
+    "audit:rank-data": "node --env-file=.env.local scripts/audit-rank-data.mjs",
+    "audit:naac:tnea": "node --env-file=.env.local scripts/build-tnea-naac-verification-queue.mjs",
+    "import:campus-facts:official": "node scripts/import-official-campus-facts.mjs",
+    "build:college-data-batch": "node scripts/build-college-data-batch.mjs"
   },
   "dependencies": {
     "@base-ui/react": "^1.6.0",
@@ -16,6 +29,7 @@
     "clsx": "^2.1.1",
     "lucide-react": "^1.24.0",
     "next": "16.2.10",
+    "pdf-parse": "^2.4.5",
     "react": "19.2.4",
     "react-dom": "19.2.4",
     "shadcn": "^4.13.0",

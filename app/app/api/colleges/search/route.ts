@@ -8,8 +8,11 @@ export async function GET(request: NextRequest) {
   try {
     const searchParams = request.nextUrl.searchParams;
 
-    const query = searchParams.get("q")?.trim() ?? "";
-    const limit = Number(searchParams.get("limit") ?? "10");
+    const query = (searchParams.get("q")?.trim() ?? "").slice(0, 80);
+    const requestedLimit = Number(searchParams.get("limit") ?? "10");
+    const limit = Number.isFinite(requestedLimit)
+      ? Math.max(1, Math.min(20, Math.floor(requestedLimit)))
+      : 10;
 
     const colleges =
       query.length > 0
@@ -21,13 +24,11 @@ export async function GET(request: NextRequest) {
       data: colleges,
     });
   } catch (error) {
+    console.error("College search failed:", error);
     return NextResponse.json(
       {
         success: false,
-        error:
-          error instanceof Error
-            ? error.message
-            : "Internal Server Error",
+        error: "College search is temporarily unavailable.",
       },
       {
         status: 500,

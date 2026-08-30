@@ -1,18 +1,14 @@
-import Navbar from "@/components/layout/Navbar";
-import Hero from "@/components/home/Hero";
-import SearchHero from "@/components/home/SearchHero";
+
+import Hero from "@/components/landing/Hero";
+import Stats from "@/components/landing/Stats";
+import FeatureGrid from "@/components/landing/FeatureGrid";
 
 export default function Home() {
   return (
-    <>
-      <Navbar />
+    <main className="bg-[#070708] text-white">
       <Hero />
-
-      <div className="bg-red-500 text-white p-10 text-center text-4xl">
-        SEARCH HERO STARTS HERE
-      </div>
-
-      <SearchHero />
-    </>
+      <Stats />
+      <FeatureGrid />
+    </main>
   );
 }
